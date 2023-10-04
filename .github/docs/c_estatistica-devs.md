@@ -1,5 +1,7 @@
 # Aula 1 - Estatística para DEVS
 
+> Voltar para o [`index`](./index.md)
+
 ## Sumário
 
 - [Aula 1 - Estatística para DEVS](#aula-1---estatística-para-devs)
@@ -116,3 +118,5 @@ A correlação não implica causalidade. Ou seja, mesmo que duas variáveis este
 Além disso, é importante lembrar que a correlação é sensível a valores extremos (outliers). Um ou mais outliers podem distorcer significativamente a medida de correlação, mesmo que a relação entre as variáveis seja fraca.
 
 A escolha do coeficiente de correlação apropriado depende das características dos dados e dos objetivos da análise. Em geral, a correlação é uma ferramenta valiosa para explorar e quantificar a relação entre variáveis, o que pode ser útil em pesquisas científicas, análises de mercado, previsões e muitos outros campos.
+
+> Voltar para o [`index`](./index.md)
