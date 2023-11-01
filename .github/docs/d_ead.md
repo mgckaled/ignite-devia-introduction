@@ -7,15 +7,24 @@
 - [Aula 2 - Análise Exploratória de Dados com Pandas](#aula-2---análise-exploratória-de-dados-com-pandas)
   - [Sumário](#sumário)
   - [Conceitos](#conceitos)
+    - [O que é a Biblioteca Pandas?](#o-que-é-a-biblioteca-pandas)
     - [Qual o objetivo do EAD - Exploratory Data Analysis?](#qual-o-objetivo-do-ead---exploratory-data-analysis)
       - [Coleta e Preparação de dados](#coleta-e-preparação-de-dados)
       - [Formulação de Hipóteses](#formulação-de-hipóteses)
       - [Tipos de Análises](#tipos-de-análises)
       - [Comunicação dos Resultados](#comunicação-dos-resultados)
       - [Lidando com valores ausentes e *outliers*](#lidando-com-valores-ausentes-e-outliers)
-    - [O que é a Biblioteca Pandas?](#o-que-é-a-biblioteca-pandas)
+      - [Tipo de dados ausentes](#tipo-de-dados-ausentes)
 
 ## Conceitos
+
+### O que é a Biblioteca Pandas?
+
+O Pandas é uma módulo de Python amplamente usada para análise de dados. Sua principal vantagem é usa capacidade de manipular, limpar e analisar dados de forma eficiente. Ele fornece estruturas de dados flexíveis, como *Series* e *DataFrames*, que permitem organizar dados em tabelas, realizar operações complexas, como filtros e agregações, e facilitar a visualização dos resultados. O Pandas também é compatível com várias fontes de dados, como arquivo `CSV`, aquivos de Excel e banco de dados, tornando-os essencial para cientistas de dados e analistas que desejam explorar e extrair *insights* de dados de maneira eficaz e intuitiva.
+
+**Conceito ChatGPT-3.5**:
+
+A biblioteca Pandas é uma biblioteca de código aberto amplamente usada na linguagem de programação Python para manipulação e análise de dados. Ela fornece estruturas de dados e funções que tornam mais fácil a tarefa de trabalhar com dados tabulares, como planilhas ou tabelas de bancos de dados. Pandas é uma escolha popular para cientistas de dados, analistas de dados e desenvolvedores devido à sua eficiência e facilidade de uso.
 
 ### Qual o objetivo do EAD - Exploratory Data Analysis?
 
@@ -190,12 +199,24 @@ Lidar com valores ausentes e outliers é uma parte crítica do processo de prepa
 
 A abordagem para lidar com valores ausentes e outliers deve ser guiada pelo contexto dos dados e pelos objetivos da análise. É importante documentar todas as etapas do tratamento de valores ausentes e outliers para garantir a transparência e a replicabilidade da análise. Além disso, é fundamental entender o impacto das decisões tomadas sobre esses dados na interpretação final dos resultados.
 
-### O que é a Biblioteca Pandas?
+#### Tipo de dados ausentes
 
-O Pandas é uma módulo de Python amplamente usada para análise de dados. Sua principal vantagem é usa capacidade de manipular, limpar e analisar dados de forma eficiente. Ele fornece estruturas de dados flexíveis, como *Series* e *DataFrames*, que permitem organizar dados em tabelas, realizar operações complexas, como filtros e agregações, e facilitar a visualização dos resultados. O Pandas também é compatível com várias fontes de dados, como arquivo `CSV`, aquivos de Excel e banco de dados, tornando-os essencial para cientistas de dados e analistas que desejam explorar e extrair *insights* de dados de maneira eficaz e intuitiva.
+O padrão de tipos de dados ausentes, também conhecido como "Missing Data Pattern," refere-se ao padrão ou à estrutura pela qual os valores ausentes estão distribuídos em um conjunto de dados. A compreensão desse padrão é importante na análise de dados, pois pode afetar a escolha das estratégias de tratamento de valores ausentes.
 
-**Conceito ChatGPT-3.5**:
+Existem vários padrões comuns de tipos de dados ausentes:
 
-A biblioteca Pandas é uma biblioteca de código aberto amplamente usada na linguagem de programação Python para manipulação e análise de dados. Ela fornece estruturas de dados e funções que tornam mais fácil a tarefa de trabalhar com dados tabulares, como planilhas ou tabelas de bancos de dados. Pandas é uma escolha popular para cientistas de dados, analistas de dados e desenvolvedores devido à sua eficiência e facilidade de uso.
+1. **Completamente Aleatório (MCAR - Missing Completely At Random):** Nesse padrão, a probabilidade de um valor estar ausente é a mesma para todas as observações. Em outras palavras, a ocorrência de valores ausentes não está relacionada às características observadas ou não observadas. Esse é o cenário mais desejável, pois não introduz viés na análise.
+
+2. **Aleatório (MAR - Missing At Random):** Nesse padrão, a probabilidade de um valor estar ausente pode depender de outras variáveis observadas, mas não das variáveis ausentes. Isso significa que, embora os dados ausentes não sejam completamente aleatórios, eles podem ser tratados de forma adequada se as variáveis relevantes estiverem disponíveis. No entanto, é importante que os motivos para os dados estarem ausentes sejam ignoráveis (ou seja, não afetam as conclusões).
+
+3. **Não Aleatório (MNAR - Missing Not At Random):** Nesse padrão, a probabilidade de um valor estar ausente está relacionada às próprias variáveis ausentes, ou seja, a ausência é influenciada por informações que não estão disponíveis no conjunto de dados. Os dados MNAR são mais desafiadores de lidar, pois podem introduzir viés e distorções significativas nas análises. Tratar dados MNAR requer métodos mais avançados e, muitas vezes, envolve suposições difíceis de validar.
+
+A identificação do padrão de tipos de dados ausentes é crucial ao escolher a estratégia de tratamento apropriada:
+
+- Para dados MCAR e MAR, a imputação de valores ausentes com base em métodos estatísticos (como média, mediana ou regressão) ou modelos de imputação é uma abordagem comum.
+
+- Para dados MNAR, é necessário um cuidado extra e a escolha de técnicas mais avançadas, como modelos estatísticos que levem em consideração a natureza não aleatória dos dados ausentes. No entanto, a validação dessas suposições pode ser um desafio.
+
+Além disso, é importante documentar o padrão de tipos de dados ausentes e qualquer abordagem de tratamento adotada, para garantir a transparência e a replicabilidade da análise. A compreensão do padrão de tipos de dados ausentes ajuda a tomar decisões informadas sobre como lidar com valores ausentes e minimizar o impacto de dados ausentes na análise final.
 
 > Voltar para o [`index`](./index.md)
