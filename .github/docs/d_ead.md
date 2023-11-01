@@ -15,6 +15,7 @@
       - [Comunicação dos Resultados](#comunicação-dos-resultados)
       - [Lidando com valores ausentes e *outliers*](#lidando-com-valores-ausentes-e-outliers)
       - [Tipo de dados ausentes](#tipo-de-dados-ausentes)
+      - [Formulando Hipóteses](#formulando-hipóteses)
 
 ## Conceitos
 
@@ -116,7 +117,8 @@ Em resumo, a formulação de hipóteses é uma parte fundamental do processo de 
 A análise de dados pode ser dividida em vários tipos, dependendo do número de variáveis envolvidas e do objetivo da análise. Aqui está um breve resumo dos quatro tipos mencionados:
 
 1. **Análise Univariada:**
-   - **Definição:** A análise univariada envolve a exploração de uma única variável de cada vez.
+   - **Definição:** A análise univariada é uma abordágem estatística que se concentra na análise de uma única variável em um conjunto de dados. Ela visa compreender as caracterpisticas individuais dessa variável, examinando sua distribuição, medidas resumo (ex: média e mediana), variabilidade e a presença de valores atípicos (*outliers*). Isso ajuda a obter uma visão detalhada das características de uma variável específica, antes de explorar as relações com outras variáveis (análise bivariada ou multivariada) durante a análise de dados.
+   - **Definição ChatGPT 3.5:** A análise univariada envolve a exploração de uma única variável de cada vez.
    - **Objetivo:** O objetivo principal é descrever e resumir os dados de uma variável específica. Isso inclui calcular estatísticas descritivas, como média, mediana, desvio padrão e criar visualizações, como histogramas, gráficos de barras ou gráficos de caixa.
    - **Exemplo:** Ao analisar as alturas de um grupo de pessoas, a análise univariada se concentraria apenas na variável "altura" e descreveria suas características estatísticas e distribuição.
 
@@ -218,5 +220,33 @@ A identificação do padrão de tipos de dados ausentes é crucial ao escolher a
 - Para dados MNAR, é necessário um cuidado extra e a escolha de técnicas mais avançadas, como modelos estatísticos que levem em consideração a natureza não aleatória dos dados ausentes. No entanto, a validação dessas suposições pode ser um desafio.
 
 Além disso, é importante documentar o padrão de tipos de dados ausentes e qualquer abordagem de tratamento adotada, para garantir a transparência e a replicabilidade da análise. A compreensão do padrão de tipos de dados ausentes ajuda a tomar decisões informadas sobre como lidar com valores ausentes e minimizar o impacto de dados ausentes na análise final.
+
+#### Formulando Hipóteses
+
+1. **Use a intuição:** Comoçe com suas suspeitas iniciais com base no conhecimento do domínio. Pergunte a si mesmo o que espera encontrar nos dadso.
+
+2. **Seja específico:** Suas hipóteses devem ser claras e específicas. Evite afirmações vagas como "os dados têm alguma tendência". Em vez disso, seja concreto, como "o aumento das vendas está relacionado ao lançamento do novo produto".
+
+3. **Testabilidade:** Certifique-se de que suas hipóteses possam ser testadas com os dados disponíveis. Você deve ser capaz de encontrar evidências nos dados que confirmem ou refutem a hipótese.
+
+4. **Considere Relações:** Pense como diferentes variáveis podem estar relacionadas. Por exemplo, "a idade dos clientes afeta a taxa de churn?" ou "a localização geográfica influencia as preferências de compras?".
+
+Na análise exploratória de dados com o Pandas, a formulação de hipóteses é um passo crucial para direcionar sua investigação e testar suposições sobre os dados. Aqui está um resumo do processo:
+
+- Entenda o contexto: Comece por compreender o contexto do seu conjunto de dados e os objetivos da análise. Isso ajudará a identificar as questões a serem exploradas.
+
+- Explore os dados: Use o Pandas para carregar seus dados e realizar uma análise inicial. Isso envolve a identificação de estatísticas descritivas, como média, mediana, desvio padrão, e a criação de gráficos para visualizar os dados.
+
+- Gere hipóteses: Com base na compreensão inicial dos dados, formule hipóteses sobre relações, tendências ou padrões que você suspeita existir no conjunto de dados. Por exemplo, "A idade dos clientes está relacionada ao valor médio das compras?".
+
+- Escolha métodos estatísticos: Selecionar métodos estatísticos apropriados para testar suas hipóteses. O Pandas oferece funções para calcular estatísticas, como correlações, t-testes, ANOVA, e muito mais.
+
+- Teste as hipóteses: Aplique os testes estatísticos aos dados para avaliar se as hipóteses são suportadas ou refutadas. Os resultados dos testes ajudarão a tomar decisões informadas.
+
+- Interprete os resultados: Analise os resultados dos testes estatísticos e interprete o que eles significam em relação às hipóteses formuladas. Isso pode levar a novas questões ou direcionar sua análise de maneira diferente.
+
+- Comunique as descobertas: Finalmente, comunique suas descobertas de forma clara e objetiva, destacando as hipóteses confirmadas ou refutadas, e suas implicações no contexto do problema ou questão original.
+
+Lembrando que a análise exploratória de dados é um processo iterativo, e as hipóteses podem ser ajustadas à medida que você obtém mais informações e insights do conjunto de dados.
 
 > Voltar para o [`index`](./index.md)
