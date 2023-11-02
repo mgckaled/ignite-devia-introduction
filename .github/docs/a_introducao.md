@@ -1,17 +1,17 @@
-# Parte 1 - Introduçõa a Intelligencia Artificial
+# Módulo 1 - Introduçõa a Intelligencia Artificial
 
-> Voltar para o [`index`](./index.md)
+> [voltar](./notes.md) para página anterior.
 
 ## Sumário
 
-- [Parte 1 - Introduçõa a Intelligencia Artificial](#parte-1---introduçõa-a-intelligencia-artificial)
+- [Módulo 1 - Introduçõa a Intelligencia Artificial](#módulo-1---introduçõa-a-intelligencia-artificial)
   - [Sumário](#sumário)
   - [Objetívo do módulo](#objetívo-do-módulo)
   - [Conteúdo](#conteúdo)
     - [O que é Inteligência Artificial?](#o-que-é-inteligência-artificial)
-    - [O que é IA (de novo)?](#o-que-é-ia-de-novo)
       - [Visão Formal](#visão-formal)
       - [Visão Filosófica](#visão-filosófica)
+      - [Definição ChatGPT 3.5](#definição-chatgpt-35)
     - [Por que usar IA?](#por-que-usar-ia)
     - [Diagrama](#diagrama)
     - [Linha do Tempo](#linha-do-tempo)
@@ -37,6 +37,16 @@ Expolorar os conceitos e fundamentos da inteligência artificial, como o objetiv
 
 ### O que é Inteligência Artificial?
 
+#### Visão Formal
+
+É um campo da ciência da computação que envolve a criação de agentes inteligentes, que podem raciocinar, aprender e agir de forma autônoma. A IA é uma área ampla e interdisciplinar, que inclui subcampos [aprendizado de máquina], [processamento de linguagem neural], [visão computacional] e robótica.
+
+#### Visão Filosófica
+
+A arte de criar máquinas que executam funções que requerem inteligência quando executadas por pessoas.
+
+#### Definição ChatGPT 3.5
+
 A definição de inteligência artificial (IA) pode variar dependendo da perspectiva a partir da qual você a aborda. Vou fornecer três visões diferentes sobre o que é a IA:
 
 1. Visão Simplista:
@@ -50,15 +60,7 @@ A definição de inteligência artificial (IA) pode variar dependendo da perspec
 
 Essas três visões abordam a inteligência artificial de diferentes ângulos, destacando sua natureza tecnológica, seu potencial e suas implicações mais amplas na sociedade e na filosofia. A IA é um campo em constante evolução que continua a desafiar nossas concepções sobre o que é a inteligência e como ela pode ser replicada ou ampliada por meio da tecnologia.
 
-### O que é IA (de novo)?
-
-#### Visão Formal
-
-É um campo da ciência da computação que envolve a criação de agentes inteligentes, que podem raciocinar, aprender e agir de forma autônoma. A IA é uma área ampla e interdisciplinar, que inclui subcampos [aprendizado de máquina], [processamento de linguagem neural], [visão computacional] e robótica.
-
-#### Visão Filosófica
-
-A arte de criar máquinas que executam funções que requerem inteligência quando executadas por pessoas.
+> retornar ao [**sumário**](#sumário)
 
 ### Por que usar IA?
 
@@ -71,6 +73,8 @@ A inteligência artificial traz diversos benefícios para as empresas. Primeiro,
 - Melhorar segurança
 - Ampliar inovaçaõ
 
+> retornar ao [**sumário**](#sumário)
+
 ### Diagrama
 
 ```mermaid
@@ -80,6 +84,8 @@ A[DADOS] -->B[ALGORITIMOS]
     C --> D[Automações]
     C --> E[Decisões]
 ```
+
+> retornar ao [**sumário**](#sumário)
 
 ### Linha do Tempo
 
@@ -139,6 +145,8 @@ timeline
     2023 : GENERATIVA AI
 ```
 
+> retornar ao [**sumário**](#sumário)
+
 ### Fundamentos
 
 A Inteligência Artificial (IA) é um campo multidisciplinar que se concentra no desenvolvimento de sistemas e algoritmos capazes de realizar tarefas que, de alguma forma, exigem inteligência humana. Estes sistemas são projetados para aprender, raciocinar, tomar decisões e resolver problemas de maneira autônoma, com base em padrões identificados nos dados.
@@ -180,6 +188,8 @@ A IA é aplicada em sistemas de tutoria inteligente, personalização de curríc
 
 Essas são apenas algumas das principais subáreas da IA, e há muitas outras especializações e aplicações em desenvolvimento contínuo. A IA é uma disciplina em constante evolução, com o potencial de transformar diversos setores e aspectos da vida cotidiana à medida que novas descobertas e inovações são alcançadas.
 
+> retornar ao [**sumário**](#sumário)
+
 ### Tipos de IA
 
 Os "3 tipos de IA" podem ser compreendidos em um contexto amplo, referindo-se a diferentes níveis de capacidade e funcionalidade que a inteligência artificial pode possuir. Esses tipos representam uma forma de categorizar a IA com base em sua autonomia e habilidades. Vamos explorar cada um deles:
@@ -194,6 +204,8 @@ Os "3 tipos de IA" podem ser compreendidos em um contexto amplo, referindo-se a 
    A IA superinteligente representa um nível hipotético de inteligência artificial que ultrapassa a capacidade cognitiva humana em todas as áreas possíveis. É uma IA altamente avançada e autônoma, capaz de superar a inteligência humana em praticamente todas as atividades intelectuais e criativas. Especula-se que a IA superinteligente teria uma compreensão abrangente e profunda de todas as áreas do conhecimento, possibilitando soluções para problemas complexos, descobertas científicas e inovações em um ritmo muito mais rápido do que os seres humanos.
 
 A busca pela IA superinteligente é uma área de discussão e pesquisa ética e filosófica, levantando considerações sobre os riscos e implicações de uma inteligência artificial tão avançada e sobre como garantir sua segurança e alinhamento com os valores humanos. Até o momento, a IA superinteligente é um conceito teórico e um objetivo a longo prazo na comunidade de pesquisa em IA.
+
+> retornar ao [**sumário**](#sumário)
 
 ### Aplicação
 
@@ -501,4 +513,6 @@ A aplicação da Inteligência Artificial (IA) em Segurança Cibernética tem se
 
 A aplicação da IA em Segurança Cibernética é crucial para enfrentar ameaças cada vez mais sofisticadas e em constante evolução. A IA pode analisar grandes volumes de dados em tempo real, identificar anomalias e responder a ameaças com velocidade e precisão, fortalecendo a postura de segurança das organizações e protegendo ativos valiosos contra ataques cibernéticos. À medida que a cibersegurança continua a ser uma prioridade crítica para empresas e governos, a IA desempenha um papel fundamental na defesa contra ameaças digitais.
 
-> Voltar para o [`index`](./index.md)
+> retornar ao [**sumário**](#sumário)
+>
+> [voltar](./notes.md) para página anterior.

@@ -1,10 +1,10 @@
-# Aula 1 - Estatística para DEVS
+# Módulo 3 - Estatística para Devs
 
-> Voltar para o [`index`](./index.md)
+> [voltar](./notes.md) para página anterior.
 
 ## Sumário
 
-- [Aula 1 - Estatística para DEVS](#aula-1---estatística-para-devs)
+- [Módulo 3 - Estatística para Devs](#módulo-3---estatística-para-devs)
   - [Sumário](#sumário)
   - [Conceitos](#conceitos)
     - [Estatística Descritiva](#estatística-descritiva)
@@ -37,6 +37,8 @@ A Estatística Descritiva envolve o uso de várias medidas estatísticas para de
 
 Dentro da IA, a Estatística Descritiva é uma etapa fundamental no processo de análise de dados. Ela ajuda a compreender a distribuição dos dados, identificar tendências, anomalias e padrões, e permite que os cientistas de dados e engenheiros de IA tomem decisões informadas sobre como processar e modelar esses dados para construir modelos de aprendizado de máquina ou tomar outras ações com base nas informações extraídas.
 
+> retornar ao [**sumário**](#sumário).
+
 ### Medidas de Posição
 
 Medidas de posição são estatísticas descritivas usadas para resumir ou descrever a localização típica de um conjunto de dados em um contexto estatístico. Elas ajudam a entender onde os valores estão concentrados e a identificar valores atípicos ou extremos em um conjunto de dados. As medidas de posição mais comuns incluem a média, a mediana, a moda, o quartil e o percentil. Aqui estão algumas informações sobre cada uma delas:
@@ -55,6 +57,8 @@ Além dessas medidas, também existem outros conceitos relacionados, como a méd
 
 A escolha da medida de posição apropriada depende do tipo de dados e do objetivo da análise estatística. Em muitos casos, é útil usar várias medidas de posição em conjunto para obter uma compreensão mais completa da distribuição dos dados.
 
+> retornar ao [**sumário**](#sumário).
+
 ### Medidas de Dispersão
 
 As medidas de dispersão são estatísticas descritivas que indicam a extensão ou a propagação dos dados em um conjunto. Elas são fundamentais para entender a variabilidade dos dados e quão distantes os valores estão da medida central (como a média, mediana ou moda). As principais medidas de dispersão incluem a amplitude, a variância, o desvio padrão, o intervalo interquartil e o coeficiente de variação. Vamos explorar cada uma delas:
@@ -70,6 +74,8 @@ As medidas de dispersão são estatísticas descritivas que indicam a extensão 
 5. **Coeficiente de Variação**: O coeficiente de variação (CV) é uma medida relativa de dispersão que expressa a variabilidade em termos de uma porcentagem da média. É útil para comparar a dispersão entre conjuntos de dados com escalas diferentes. Quanto menor o CV, mais homogêneo é o conjunto de dados.
 
 É importante escolher a medida de dispersão apropriada com base na natureza dos dados e nos objetivos da análise. Por exemplo, se a presença de valores extremos é uma preocupação, o intervalo interquartil ou o desvio padrão podem ser mais indicados. Se a interpretabilidade é importante, o desvio padrão é frequentemente preferido. Compreender a dispersão dos dados é crucial para tomar decisões informadas e interpretar corretamente os resultados das análises estatísticas.
+
+> retornar ao [**sumário**](#sumário).
 
 ### Medidas de Forma
 
@@ -97,6 +103,8 @@ Medidas de forma, também conhecidas como medidas de assimetria e curtose, são 
 
 É importante observar que a interpretação das medidas de forma depende do contexto dos dados e das características específicas da distribuição. Além disso, essas medidas não são as únicas considerações ao analisar a forma de uma distribuição; a visualização dos dados por meio de gráficos, como histogramas e gráficos de densidade, também é fundamental para uma compreensão completa da distribuição dos dados. As medidas de forma são ferramentas úteis para resumir a forma das distribuições, mas devem ser usadas em conjunto com outras técnicas de análise de dados.
 
+> retornar ao [**sumário**](#sumário).
+
 ### Correlação
 
 A correlação é uma medida estatística que descreve a relação entre duas variáveis em um conjunto de dados. Ela avalia o grau de associação ou dependência entre essas variáveis. A correlação é amplamente usada na estatística para entender como duas variáveis se comportam em conjunto e se há alguma relação linear entre elas. As principais medidas de correlação incluem o coeficiente de correlação de Pearson, o coeficiente de correlação de Spearman e o coeficiente de correlação de Kendall:
@@ -119,4 +127,6 @@ Além disso, é importante lembrar que a correlação é sensível a valores ext
 
 A escolha do coeficiente de correlação apropriado depende das características dos dados e dos objetivos da análise. Em geral, a correlação é uma ferramenta valiosa para explorar e quantificar a relação entre variáveis, o que pode ser útil em pesquisas científicas, análises de mercado, previsões e muitos outros campos.
 
-> Voltar para o [`index`](./index.md)
+> retornar ao [**sumário**](#sumário).
+>
+> [voltar](./notes.md) para página anterior.

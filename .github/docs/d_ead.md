@@ -1,14 +1,15 @@
-# Aula 2 - Análise Exploratória de Dados com Pandas
+# Módulo 4 - Análise Exploratória de Dados com Pandas
 
-> Voltar para o [`index`](./index.md)
+> [voltar](./notes.md) para página anterior.
 
 ## Sumário
 
-- [Aula 2 - Análise Exploratória de Dados com Pandas](#aula-2---análise-exploratória-de-dados-com-pandas)
+- [Módulo 4 - Análise Exploratória de Dados com Pandas](#módulo-4---análise-exploratória-de-dados-com-pandas)
   - [Sumário](#sumário)
   - [Conceitos](#conceitos)
     - [O que é a Biblioteca Pandas?](#o-que-é-a-biblioteca-pandas)
     - [Qual o objetivo do EAD - Exploratory Data Analysis?](#qual-o-objetivo-do-ead---exploratory-data-analysis)
+    - [Análise Exploratória de Dados](#análise-exploratória-de-dados)
       - [Coleta e Preparação de dados](#coleta-e-preparação-de-dados)
       - [Formulação de Hipóteses](#formulação-de-hipóteses)
       - [Tipos de Análises](#tipos-de-análises)
@@ -26,6 +27,8 @@ O Pandas é uma módulo de Python amplamente usada para análise de dados. Sua p
 **Conceito ChatGPT-3.5**:
 
 A biblioteca Pandas é uma biblioteca de código aberto amplamente usada na linguagem de programação Python para manipulação e análise de dados. Ela fornece estruturas de dados e funções que tornam mais fácil a tarefa de trabalhar com dados tabulares, como planilhas ou tabelas de bancos de dados. Pandas é uma escolha popular para cientistas de dados, analistas de dados e desenvolvedores devido à sua eficiência e facilidade de uso.
+
+> retornar ao [**sumário**](#sumário)
 
 ### Qual o objetivo do EAD - Exploratory Data Analysis?
 
@@ -52,6 +55,10 @@ Aqui estão alguns dos principais objetivos do EDA:
 7. Comunicar resultados: Visualizações e resumos gerados durante a EDA são frequentemente usados para comunicar resultados a partes interessadas e colegas.
 
 Em resumo, a Exploratory Data Analysis é uma etapa crucial no processo de análise de dados, pois ajuda a compreender melhor os dados, identificar padrões e anomalias, e guiar análises estatísticas subsequentes. Ela permite que os analistas de dados obtenham uma visão mais profunda dos dados antes de realizar análises mais avançadas e tomar decisões informadas com base nas informações obtidas.
+
+> retornar ao [**sumário**](#sumário)
+
+### Análise Exploratória de Dados
 
 #### Coleta e Preparação de dados
 
@@ -249,4 +256,6 @@ Na análise exploratória de dados com o Pandas, a formulação de hipóteses é
 
 Lembrando que a análise exploratória de dados é um processo iterativo, e as hipóteses podem ser ajustadas à medida que você obtém mais informações e insights do conjunto de dados.
 
-> Voltar para o [`index`](./index.md)
+> retornar ao [**sumário**](#sumário).
+>
+> [voltar](./notes.md) para página anterior.
