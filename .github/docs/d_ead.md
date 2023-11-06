@@ -257,6 +257,8 @@ Na análise exploratória de dados com o Pandas, a formulação de hipóteses é
 
 Lembrando que a análise exploratória de dados é um processo iterativo, e as hipóteses podem ser ajustadas à medida que você obtém mais informações e insights do conjunto de dados.
 
+> [voltar](#sumário) para o topo da página
+
 ### Análise Bivariada
 
 Análise Bivariada é um técnica de estatística que se encontra na relação entre duas variáveis em um conjunto de dados. Ela busca entender como um variável está relacionada à outra, frequentemente usando gráficos, tabelas cruzadas e cálculos de correlação. Isso ajuda a identificar padrões, associados e dependências entre as duas variáveis, fornecendo insights sobre como elas interagem, o que é cricial na análise de dados e na tomada de diciões informadas.

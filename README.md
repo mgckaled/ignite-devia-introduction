@@ -2,6 +2,21 @@
 
 # Ignite Trilha Desenvovimento de IA - Introdução
 
+<div align="center">
+   <img alt="logo trilha" src=".github/assets/trilha-rs.png" width="40%"/>
+</div>
+
+<br>
+
+<div align="center">
+   <a href="https://github.com/mgckaled">
+      <img alt="Made by mgckaled" src="https://img.shields.io/badge/made%20by-mgckaled-darkblue">
+   </a>
+   <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/mgckaled/ignite-devia-introduction">
+   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/mgckaled/ignite-devia-introduction">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</div>
+
 ## Sumário
 
 - [Ignite Trilha Desenvovimento de IA - Introdução](#ignite-trilha-desenvovimento-de-ia---introdução)
@@ -55,7 +70,7 @@ Neste módulo de análise exploratória de dados com pandas, vamos aprender a ex
 
 ## Licença
 
-Distribuído sob a licença *MIT*. Veja [LICENSE](LICENSE) para mais informações.  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+Distribuído sob a licença *MIT*. Veja [LICENSE](LICENSE) para mais informações.
 
 ---
 
