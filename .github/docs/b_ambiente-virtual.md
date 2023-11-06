@@ -25,8 +25,6 @@ Preparar adequadamente o ambiente de desenvolvimento para as tarefas práticas d
 
 Um Ambiente Virtual de Desenvolvimento em Python é um espaço isolado que permite criar um ambiente independente com suas próprias configurações e dependências Python para um projeto específico. Isso ajuda a evitar conflitos entre bibliotecas e permite que os desenvolvedores gerenciem diferentes conjuntos de bibliotecas e versões para diferentes projetos Python em uma única máquina.
 
-> retornar ao [**sumário**](#sumário).
-
 ### Quais são os principais gerenciadores de versão Python?
 
 Os principais gerenciadores de versão Python são:
@@ -49,7 +47,7 @@ Os principais gerenciadores de versão Python são:
 
 A escolha do gerenciador de versão Python depende das necessidades e preferências do desenvolvedor, bem como das exigências do projeto. Cada um desses gerenciadores oferece recursos específicos e aborda diferentes aspectos do desenvolvimento e do gerenciamento de pacotes Python.
 
-> retornar ao [**sumário**](#sumário).
+> [voltar](#sumário) para o topo da página.
 
 ### O que é e qual é o objetivo dos Gerenciadores de Ambientes Virtuais?
 
@@ -72,7 +70,7 @@ Os Gerenciadores de Ambientes Virtuais são ferramentas que permitem criar e ger
 
 Em resumo, os gerenciadores de ambientes virtuais são ferramentas essenciais para o desenvolvimento Python, pois ajudam a criar ambientes de desenvolvimento isolados, controlar dependências e garantir a consistência e a portabilidade de projetos. Eles desempenham um papel fundamental na organização e na simplificação do gerenciamento de projetos de software.
 
-> retornar ao [**sumário**](#sumário).
+> [voltar](#sumário) para o topo da página.
 
 ### Gerenciadores de Ambiente Virtual minimalistas
 
@@ -237,6 +235,6 @@ Aqui estão os conceitos e comandos importantes relacionados ao `pipenv`:
 
 Em resumo, o `pipenv` é uma ferramenta conveniente e poderosa para gerenciamento de pacotes e ambientes virtuais em projetos Python. Ele oferece uma solução completa para criar ambientes de desenvolvimento isolados e gerenciar dependências, tornando o desenvolvimento Python mais organizado e eficiente.
 
-> retornar ao [**sumário**](#sumário).
+> [voltar](#sumário) para o topo da página.
 >
 > [voltar](./notes.md) para página anterior.

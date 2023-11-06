@@ -17,6 +17,7 @@
       - [Lidando com valores ausentes e *outliers*](#lidando-com-valores-ausentes-e-outliers)
       - [Tipo de dados ausentes](#tipo-de-dados-ausentes)
       - [Formulando Hipóteses](#formulando-hipóteses)
+    - [Análise Bivariada](#análise-bivariada)
 
 ## Conceitos
 
@@ -28,7 +29,7 @@ O Pandas é uma módulo de Python amplamente usada para análise de dados. Sua p
 
 A biblioteca Pandas é uma biblioteca de código aberto amplamente usada na linguagem de programação Python para manipulação e análise de dados. Ela fornece estruturas de dados e funções que tornam mais fácil a tarefa de trabalhar com dados tabulares, como planilhas ou tabelas de bancos de dados. Pandas é uma escolha popular para cientistas de dados, analistas de dados e desenvolvedores devido à sua eficiência e facilidade de uso.
 
-> retornar ao [**sumário**](#sumário)
+> [voltar](#sumário) para o topo da página.
 
 ### Qual o objetivo do EAD - Exploratory Data Analysis?
 
@@ -56,7 +57,7 @@ Aqui estão alguns dos principais objetivos do EDA:
 
 Em resumo, a Exploratory Data Analysis é uma etapa crucial no processo de análise de dados, pois ajuda a compreender melhor os dados, identificar padrões e anomalias, e guiar análises estatísticas subsequentes. Ela permite que os analistas de dados obtenham uma visão mais profunda dos dados antes de realizar análises mais avançadas e tomar decisões informadas com base nas informações obtidas.
 
-> retornar ao [**sumário**](#sumário)
+> [voltar](#sumário) para o topo da página
 
 ### Análise Exploratória de Dados
 
@@ -256,6 +257,26 @@ Na análise exploratória de dados com o Pandas, a formulação de hipóteses é
 
 Lembrando que a análise exploratória de dados é um processo iterativo, e as hipóteses podem ser ajustadas à medida que você obtém mais informações e insights do conjunto de dados.
 
-> retornar ao [**sumário**](#sumário).
+### Análise Bivariada
+
+Análise Bivariada é um técnica de estatística que se encontra na relação entre duas variáveis em um conjunto de dados. Ela busca entender como um variável está relacionada à outra, frequentemente usando gráficos, tabelas cruzadas e cálculos de correlação. Isso ajuda a identificar padrões, associados e dependências entre as duas variáveis, fornecendo insights sobre como elas interagem, o que é cricial na análise de dados e na tomada de diciões informadas.
+
+**Conceito ChatGPT:**
+
+A análise bivariada é uma parte importante da análise exploratória de dados (AED) em estatística e ciência de dados. No contexto da AED, a análise bivariada se concentra na relação entre duas variáveis ​​em um conjunto de dados. Ela ajuda a entender como duas variáveis estão relacionadas entre si e como elas podem influenciar uma à outra.
+
+A análise bivariada envolve a análise de duas variáveis em conjunto para identificar padrões, tendências e associações entre elas. Alguns dos métodos e técnicas comuns usados na análise bivariada incluem:
+
+1. **Gráficos de dispersão:** Gráficos de dispersão mostram a relação entre duas variáveis, representando cada par de valores em um gráfico bidimensional. Isso pode ajudar a identificar se há alguma correlação entre as duas variáveis.
+
+2. **Tabelas de contingência:** Tabelas de contingência são usadas para resumir a relação entre duas variáveis categóricas. Elas mostram a frequência de ocorrência de combinações de categorias das duas variáveis.
+
+3. **Testes de associação:** Testes estatísticos, como o teste qui-quadrado, o teste t de Student e a correlação de Pearson, podem ser aplicados para quantificar a associação entre duas variáveis e determinar se essa associação é estatisticamente significativa.
+
+4. **Análise de correlação:** A análise de correlação é usada para medir o grau e a direção da relação linear entre duas variáveis contínuas. O coeficiente de correlação, como o coeficiente de correlação de Pearson ou Spearman, é frequentemente utilizado para avaliar essa relação.
+
+A análise bivariada é uma etapa fundamental na AED, pois ajuda a identificar relações preliminares entre variáveis e a gerar insights que podem orientar análises mais avançadas. Ela é frequentemente usada como ponto de partida antes de realizar análises multivariadas, onde várias variáveis são consideradas simultaneamente.
+
+> [voltar](#sumário) para o topo da página
 >
 > [voltar](./notes.md) para página anterior.

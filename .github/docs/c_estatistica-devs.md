@@ -37,7 +37,7 @@ A Estatística Descritiva envolve o uso de várias medidas estatísticas para de
 
 Dentro da IA, a Estatística Descritiva é uma etapa fundamental no processo de análise de dados. Ela ajuda a compreender a distribuição dos dados, identificar tendências, anomalias e padrões, e permite que os cientistas de dados e engenheiros de IA tomem decisões informadas sobre como processar e modelar esses dados para construir modelos de aprendizado de máquina ou tomar outras ações com base nas informações extraídas.
 
-> retornar ao [**sumário**](#sumário).
+> [voltar](#sumário) para o topo da página.
 
 ### Medidas de Posição
 
@@ -57,7 +57,7 @@ Além dessas medidas, também existem outros conceitos relacionados, como a méd
 
 A escolha da medida de posição apropriada depende do tipo de dados e do objetivo da análise estatística. Em muitos casos, é útil usar várias medidas de posição em conjunto para obter uma compreensão mais completa da distribuição dos dados.
 
-> retornar ao [**sumário**](#sumário).
+> [voltar](#sumário) para o topo da página.
 
 ### Medidas de Dispersão
 
@@ -75,7 +75,7 @@ As medidas de dispersão são estatísticas descritivas que indicam a extensão 
 
 É importante escolher a medida de dispersão apropriada com base na natureza dos dados e nos objetivos da análise. Por exemplo, se a presença de valores extremos é uma preocupação, o intervalo interquartil ou o desvio padrão podem ser mais indicados. Se a interpretabilidade é importante, o desvio padrão é frequentemente preferido. Compreender a dispersão dos dados é crucial para tomar decisões informadas e interpretar corretamente os resultados das análises estatísticas.
 
-> retornar ao [**sumário**](#sumário).
+> [voltar](#sumário) para o topo da página.
 
 ### Medidas de Forma
 
@@ -103,7 +103,7 @@ Medidas de forma, também conhecidas como medidas de assimetria e curtose, são 
 
 É importante observar que a interpretação das medidas de forma depende do contexto dos dados e das características específicas da distribuição. Além disso, essas medidas não são as únicas considerações ao analisar a forma de uma distribuição; a visualização dos dados por meio de gráficos, como histogramas e gráficos de densidade, também é fundamental para uma compreensão completa da distribuição dos dados. As medidas de forma são ferramentas úteis para resumir a forma das distribuições, mas devem ser usadas em conjunto com outras técnicas de análise de dados.
 
-> retornar ao [**sumário**](#sumário).
+> [voltar](#sumário) para o topo da página.
 
 ### Correlação
 
@@ -127,6 +127,6 @@ Além disso, é importante lembrar que a correlação é sensível a valores ext
 
 A escolha do coeficiente de correlação apropriado depende das características dos dados e dos objetivos da análise. Em geral, a correlação é uma ferramenta valiosa para explorar e quantificar a relação entre variáveis, o que pode ser útil em pesquisas científicas, análises de mercado, previsões e muitos outros campos.
 
-> retornar ao [**sumário**](#sumário).
+> [voltar](#sumário) para o topo da página.
 >
 > [voltar](./notes.md) para página anterior.
