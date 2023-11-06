@@ -13,7 +13,7 @@
     - [Módulo 4: Análise Exploratória de Dados com Pandas](#módulo-4-análise-exploratória-de-dados-com-pandas)
   - [Tecnologias](#tecnologias)
     - [Linguagem de Programação](#linguagem-de-programação)
-    - [Gerenciadores de Ambiente Virutal](#gerenciadores-de-ambiente-virutal)
+    - [Gerenciadores de Ambiente Virtual](#gerenciadores-de-ambiente-virtual)
     - [Principais Bibliotecas (Packages)](#principais-bibliotecas-packages)
   - [Licença](#licença)
 
@@ -43,7 +43,7 @@ Neste módulo de análise exploratória de dados com pandas, vamos aprender a ex
 
 - [`python`](https://www.python.org/) (v3.11)
 
-### Gerenciadores de Ambiente Virutal
+### Gerenciadores de Ambiente Virtual
 
 - [`pyenv`](https://github.com/pyenv/pyenv)
 - [`pipenv`](https://pipenv.pypa.io/en/latest/)

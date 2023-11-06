@@ -1,10 +1,10 @@
-# Módulo 1 - Introduçõa a Intelligencia Artificial
+# Módulo 1 - Introdução a Inteligencia Artificial
 
 > [voltar](./notes.md) para página anterior.
 
 ## Sumário
 
-- [Módulo 1 - Introduçõa a Intelligencia Artificial](#módulo-1---introduçõa-a-intelligencia-artificial)
+- [Módulo 1 - Introdução a Inteligencia Artificial](#módulo-1---introdução-a-inteligencia-artificial)
   - [Sumário](#sumário)
   - [Objetívo do módulo](#objetívo-do-módulo)
   - [Conteúdo](#conteúdo)
@@ -60,7 +60,7 @@ A definição de inteligência artificial (IA) pode variar dependendo da perspec
 
 Essas três visões abordam a inteligência artificial de diferentes ângulos, destacando sua natureza tecnológica, seu potencial e suas implicações mais amplas na sociedade e na filosofia. A IA é um campo em constante evolução que continua a desafiar nossas concepções sobre o que é a inteligência e como ela pode ser replicada ou ampliada por meio da tecnologia.
 
-> retornar ao [**sumário**](#sumário)
+> retornar ao [**sumário**](#sumário).
 
 ### Por que usar IA?
 
@@ -73,7 +73,7 @@ A inteligência artificial traz diversos benefícios para as empresas. Primeiro,
 - Melhorar segurança
 - Ampliar inovaçaõ
 
-> retornar ao [**sumário**](#sumário)
+> retornar ao [**sumário**](#sumário).
 
 ### Diagrama
 
@@ -85,7 +85,7 @@ A[DADOS] -->B[ALGORITIMOS]
     C --> E[Decisões]
 ```
 
-> retornar ao [**sumário**](#sumário)
+> retornar ao [**sumário**](#sumário).
 
 ### Linha do Tempo
 
@@ -145,7 +145,7 @@ timeline
     2023 : GENERATIVA AI
 ```
 
-> retornar ao [**sumário**](#sumário)
+> retornar ao [**sumário**](#sumário).
 
 ### Fundamentos
 
@@ -188,7 +188,7 @@ A IA é aplicada em sistemas de tutoria inteligente, personalização de curríc
 
 Essas são apenas algumas das principais subáreas da IA, e há muitas outras especializações e aplicações em desenvolvimento contínuo. A IA é uma disciplina em constante evolução, com o potencial de transformar diversos setores e aspectos da vida cotidiana à medida que novas descobertas e inovações são alcançadas.
 
-> retornar ao [**sumário**](#sumário)
+> retornar ao [**sumário**](#sumário).
 
 ### Tipos de IA
 
@@ -205,7 +205,7 @@ Os "3 tipos de IA" podem ser compreendidos em um contexto amplo, referindo-se a 
 
 A busca pela IA superinteligente é uma área de discussão e pesquisa ética e filosófica, levantando considerações sobre os riscos e implicações de uma inteligência artificial tão avançada e sobre como garantir sua segurança e alinhamento com os valores humanos. Até o momento, a IA superinteligente é um conceito teórico e um objetivo a longo prazo na comunidade de pesquisa em IA.
 
-> retornar ao [**sumário**](#sumário)
+> retornar ao [**sumário**](#sumário).
 
 ### Aplicação
 
@@ -513,6 +513,6 @@ A aplicação da Inteligência Artificial (IA) em Segurança Cibernética tem se
 
 A aplicação da IA em Segurança Cibernética é crucial para enfrentar ameaças cada vez mais sofisticadas e em constante evolução. A IA pode analisar grandes volumes de dados em tempo real, identificar anomalias e responder a ameaças com velocidade e precisão, fortalecendo a postura de segurança das organizações e protegendo ativos valiosos contra ataques cibernéticos. À medida que a cibersegurança continua a ser uma prioridade crítica para empresas e governos, a IA desempenha um papel fundamental na defesa contra ameaças digitais.
 
-> retornar ao [**sumário**](#sumário)
+> retornar ao [**sumário**](#sumário).
 >
 > [voltar](./notes.md) para página anterior.
