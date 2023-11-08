@@ -33,7 +33,7 @@
 
 ## Sobre o Projeto
 
-Reposítório que reuni os quatro primeiros módulos da trilha Desenvolvimento de IA da oferecidos pela Rocketseat Education.
+Repositório que reuni os quatro primeiros módulos da trilha Desenvolvimento IA 2023, desenvolvido pela Rocketseat Education.
 
 ### Módulo 1: Introdução
 

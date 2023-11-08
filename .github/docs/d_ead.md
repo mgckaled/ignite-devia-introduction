@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD033 -->
+
 # Módulo 4 - Análise Exploratória de Dados com Pandas
 
 > [voltar](./notes.md) para página anterior.
@@ -18,6 +20,8 @@
       - [Tipo de dados ausentes](#tipo-de-dados-ausentes)
       - [Formulando Hipóteses](#formulando-hipóteses)
     - [Análise Bivariada](#análise-bivariada)
+    - [Lidando com *Outliers*](#lidando-com-outliers)
+      - [Consulta ChatGPT 3.5](#consulta-chatgpt-35)
 
 ## Conceitos
 
@@ -278,6 +282,47 @@ A análise bivariada envolve a análise de duas variáveis em conjunto para iden
 4. **Análise de correlação:** A análise de correlação é usada para medir o grau e a direção da relação linear entre duas variáveis contínuas. O coeficiente de correlação, como o coeficiente de correlação de Pearson ou Spearman, é frequentemente utilizado para avaliar essa relação.
 
 A análise bivariada é uma etapa fundamental na AED, pois ajuda a identificar relações preliminares entre variáveis e a gerar insights que podem orientar análises mais avançadas. Ela é frequentemente usada como ponto de partida antes de realizar análises multivariadas, onde várias variáveis são consideradas simultaneamente.
+
+> [voltar](#sumário) para o topo da página
+
+### Lidando com *Outliers*
+
+Um outlier é um dado que é muito diferente dos outros dados em um conjunto. É um ponto fora da curva.
+
+Por exemplo, imagine que você tenha um conjunto de dados que registra a altura de 100 pessoas. A média das alturas é de 1,70m. Um *outlier* seria uma pessoa de 2,5m metros de altura.
+
+*Outliers* podem aparacer por diversos fatores, como erros de medição, dados incompletos ou eventos aleatórios. Como eles podem afetar os resultados de uma análise de dados, logo é importante indentíficá-los e tratá-los através de métodos específicos, como os listados na ilustração abaixo:
+
+<div>
+   <img src="../assets/images/m4_01.png" width="70%"/>
+</div>
+
+#### Consulta ChatGPT 3.5
+
+Lidar com outliers em uma análise exploratória de dados é uma etapa importante, pois esses valores atípicos podem distorcer as análises estatísticas e prejudicar a interpretação dos dados. Aqui estão algumas abordagens comuns para lidar com outliers:
+
+1. Identificação de outliers:
+   - Utilize gráficos de dispersão, histogramas, box plots e estatísticas descritivas para identificar os outliers em seus dados.
+   - Considere as características do problema e do domínio para determinar se um valor é realmente um outlier ou se tem significado estatístico.
+
+2. Tratamento de outliers:
+   - Remoção: Uma opção é remover os outliers do conjunto de dados. No entanto, isso deve ser feito com cuidado, pois a exclusão de dados pode resultar na perda de informações valiosas.
+   - Transformação: Você pode aplicar transformações matemáticas aos dados, como a transformação logarítmica, para reduzir a influência dos outliers.
+   - Substituição: Em vez de remover outliers, você pode substituí-los por valores mais típicos, como a mediana ou a média truncada (média calculada após a remoção de outliers).
+   - Segmentação: Em alguns casos, pode ser útil segmentar os dados em grupos distintos, tratando os outliers de forma diferente em cada grupo.
+
+3. Análise sensível a outliers:
+   - Use métodos de estatística robusta que são menos sensíveis a outliers, como a mediana em vez da média.
+   - Utilize testes de hipóteses robustos que não são influenciados por valores extremos.
+
+4. Visualização:
+   - Ao criar visualizações, como gráficos de dispersão, marque os outliers para que eles possam ser identificados facilmente.
+   - Considere a criação de gráficos separados para destacar os outliers, se necessário.
+
+5. Avaliação do impacto:
+   - Analise como a presença ou remoção de outliers afeta suas conclusões e decisões. É importante documentar todas as etapas de tratamento de outliers e justificar suas escolhas.
+
+Lembre-se de que o tratamento de outliers deve ser feito com cautela, dependendo do contexto do problema e das características dos dados. Em alguns casos, os outliers podem conter informações valiosas ou ser de interesse para a análise. Portanto, é importante entender o impacto das decisões sobre outliers em relação aos objetivos da análise de dados.
 
 > [voltar](#sumário) para o topo da página
 >
