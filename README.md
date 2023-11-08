@@ -33,6 +33,8 @@
 
 ## Sobre o Projeto
 
+Reposítório que reuni os quatro primeiros módulos da trilha Desenvolvimento de IA da oferecidos pela Rocketseat Education.
+
 ### Módulo 1: Introdução
 
 Neste módulo de introdução à inteligência artificial, exploraremos conceitos e fundamentos da área, abordando seu potencial na resolução de problemas complexos. Também traçaremos uma linha do tempo desde suas origens históricas até o presente emocionante e o futuro promissor da IA, revelando seu impacto no mundo. Prepare-se para uma imersão profunda no universo da IA e sua influência na sociedade.
@@ -66,10 +68,12 @@ Neste módulo de análise exploratória de dados com pandas, vamos aprender a ex
 
 - [`pandas`](https://pandas.pydata.org/)
 - [`matplotlib`](https://matplotlib.org/)
+- [`scipy`](https://scipy.org/)
+- [`numpy`](https://numpy.org/)
 
 ## Como clonar o projeto?
 
-1. Certifique-se de que está usando o `pyenv` e o `pipenv` para gerenciar as dependências do projeto. Veja como instalar e configurar [**aqui**](#gerenciadores-de-ambiente-virtual).
+1. Certifique-se de que está usando o `pyenv` e o `pipenv` para gerenciar as dependências do projeto. Veja como instalar e configurar clicando nos respectivos links do tópico [Gerenciadores de Ambiente Virtual](#gerenciadores-de-ambiente-virtual).
 
 2. Faça o clone pelo Github:
 
