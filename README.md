@@ -6,8 +6,6 @@
    <img alt="logo trilha" src=".github/assets/trilha-rs.png" width="40%"/>
 </div>
 
-<br>
-
 <div align="center">
    <a href="https://github.com/mgckaled">
       <img alt="Made by mgckaled" src="https://img.shields.io/badge/made%20by-mgckaled-darkblue">
@@ -30,6 +28,7 @@
     - [Linguagem de Programação](#linguagem-de-programação)
     - [Gerenciadores de Ambiente Virtual](#gerenciadores-de-ambiente-virtual)
     - [Principais Bibliotecas (Packages)](#principais-bibliotecas-packages)
+  - [Como clonar o projeto?](#como-clonar-o-projeto)
   - [Licença](#licença)
 
 ## Sobre o Projeto
@@ -67,6 +66,29 @@ Neste módulo de análise exploratória de dados com pandas, vamos aprender a ex
 
 - [`pandas`](https://pandas.pydata.org/)
 - [`matplotlib`](https://matplotlib.org/)
+
+## Como clonar o projeto?
+
+1. Certifique-se de que está usando o `pyenv` e o `pipenv` para gerenciar as dependências do projeto. Veja como instalar e configurar [**aqui**](#gerenciadores-de-ambiente-virtual).
+
+2. Faça o clone pelo Github:
+
+    ```bash
+    git clone https://github.com/mgckaled/ignite-devia-introduction.git
+    ```
+
+3. Acesse o diretório:
+
+    ```bash
+    cd ignite-devia-introduction
+    ```
+
+4. Instale as dependências e ative o ambiente virtual
+
+    ```bash
+    pipenv install
+    pipenv shell
+    ```
 
 ## Licença
 
