@@ -8,6 +8,7 @@ pandas = "*"
 matplotlib = "*"
 scipy = "*"
 numpy = "*"
+sweetviz = "*"
 
 [dev-packages]
 

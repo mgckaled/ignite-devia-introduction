@@ -1,4 +1,5 @@
 <!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD024 -->
 
 # Módulo 4 - Análise Exploratória de Dados com Pandas
 
@@ -24,6 +25,8 @@
       - [Consulta ChatGPT 3.5](#consulta-chatgpt-35)
       - [O que é Método Tukey?](#o-que-é-método-tukey)
       - [O que é Método Z-score?](#o-que-é-método-z-score)
+    - [Automatizando EDA](#automatizando-eda)
+      - [Consulta ChatGPT 3.5](#consulta-chatgpt-35-1)
 
 ## Conceitos
 
@@ -411,6 +414,60 @@ Os Z-scores são frequentemente usados para identificar valores atípicos (outli
    ```
 
 Agora, o DataFrame terá uma coluna 'Z-Score' contendo os valores do Z-score para cada valor na coluna 'Valor'. Você pode usar essa informação para identificar valores atípicos, se necessário. Certifique-se de que a coluna 'Valor' contenha os dados aos quais você deseja aplicar o Z-score.
+
+> [voltar](#sumário) para o topo da página
+
+### Automatizando EDA
+
+A Automatização da análise exploratória de dados (EDA) oferece uma série de vantagens, incluindo:
+
+- **Aumento da velocidade e da eficiência:** a EDA automatizada pode ser executada muito mais rapidamente de que a EDA manaul. Isso pode ser importante para conjuntos de dados grandes ou complexos.
+- **Redução da subjetividade:** A EDA automatizada é menos propensa a erros ou viesses humanos. Isso pode levar a análises mais precisas e confiáveis.
+- **Melhor compreensão dos dados:** A EDA automatizada pode identificar padrões e tendências que podem não ser óbvios para os analistas humanos. Isso pode ajudar a obter não ser óbvios para os analistas humanos. Isso pode ajudar a obter uma melhor compreensão dos dados e a tomar melhores decisões.
+
+#### Consulta ChatGPT 3.5
+
+A automação da Análise Exploratória de Dados (EDA) envolve o uso de ferramentas e scripts para realizar tarefas repetitivas de exploração de dados de forma mais eficiente. Aqui estão algumas etapas para automatizar um EDA:
+
+1. Coleta de Dados:
+   - Configure um pipeline de coleta de dados que busca automaticamente os dados de suas fontes, como bancos de dados, APIs, arquivos CSV, etc.
+   - Agende tarefas para atualizar os dados regularmente, se necessário.
+
+2. Pré-processamento de Dados:
+   - Automatize a limpeza de dados, incluindo preenchimento de valores ausentes, tratamento de outliers e transformações de dados.
+   - Use scripts ou ferramentas para padronizar a formatação dos dados.
+
+3. Visualizações Automatizadas:
+   - Crie scripts que gerem visualizações de dados, como gráficos de dispersão, histogramas, box plots e outros gráficos relevantes.
+   - Utilize bibliotecas de visualização de dados, como Matplotlib, Seaborn ou Plotly em Python, para criar visualizações de forma programática.
+
+4. Análise Estatística:
+   - Desenvolva scripts para calcular estatísticas descritivas, como média, mediana, desvio padrão, correlações, etc.
+   - Automatize a identificação de tendências e padrões nos dados, como sazonalidades ou anomalias.
+
+5. Análise de Texto:
+   - Se os seus dados incluem texto, utilize processamento de linguagem natural (NLP) para automatizar a análise de texto, como extração de palavras-chave, análise de sentimentos e classificação de documentos.
+
+6. Relatórios Automatizados:
+   - Crie scripts para gerar relatórios automaticamente, incluindo resultados de análise, visualizações e insights.
+   - Use ferramentas como Jupyter Notebooks, RMarkdown, ou bibliotecas de geração de relatórios em HTML ou PDF.
+
+7. Integração com Dashboards:
+   - Integre os resultados da automação de EDA em dashboards interativos usando ferramentas como Tableau, Power BI, ou bibliotecas como Dash (para Python).
+   - Isso permite que os usuários explorem os dados de forma interativa.
+
+8. Monitoramento e Atualização:
+   - Estabeleça um sistema de monitoramento que verifica a qualidade dos dados, a precisão das análises e a integridade dos resultados automaticamente.
+   - Automatize a atualização do EDA sempre que novos dados estejam disponíveis.
+
+9. Versionamento:
+   - Utilize sistemas de controle de versão, como Git, para rastrear as mudanças nos scripts e nos resultados da análise.
+
+10. Documentação:
+
+- Documente seus scripts, fluxos de trabalho e resultados para que outros membros da equipe possam entender e utilizar a automação do EDA.
+
+Lembre-se de que a automação do EDA não é uma solução única para todos os casos. A complexidade e os requisitos específicos variam de projeto para projeto. Portanto, adapte a automação às necessidades do seu projeto e esteja preparado para ajustá-la à medida que os requisitos mudam.
 
 > [voltar](#sumário) para o topo da página
 >

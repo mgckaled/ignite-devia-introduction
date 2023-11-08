@@ -70,6 +70,7 @@ Neste módulo de análise exploratória de dados com pandas, vamos aprender a ex
 - [`matplotlib`](https://matplotlib.org/)
 - [`scipy`](https://scipy.org/)
 - [`numpy`](https://numpy.org/)
+- [`sweetviz`](https://pypi.org/project/sweetviz/)
 
 ## Como clonar o projeto?
 
