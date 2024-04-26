@@ -52,6 +52,8 @@ Neste módulo de Estatística Descritiva para Devs, focaremos na construção de
 Neste módulo de análise exploratória de dados com pandas, vamos aprender a extrair insights dos dados que temos. O objetivo do EDA, ou Exploratory Data Analysis, é dar uma olhada nos dados antes de começar a fazer coisas mais complexas. Vamos abordar conceitos do EDA, a biblioteca Pandas, coleta e preparação de dados, lidar com dados ausentes, formulação de hipóteses, análise univariada e bivariada, lidar com outliers e automatizar parte do processo.
 
 > Acessar [**anotações de aulas**](/.github/docs/notes.md).
+>
+> Quiz - [Questionário Avaliativo](/.github/docs/quizz.md)
 
 ## Tecnologias
 
