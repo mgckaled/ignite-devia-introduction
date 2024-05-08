@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 -->
 
-# Ignite Trilha Desenvovimento de IA - Introdução
+# Formação Desenvovimento de IA - Introdução, Estatística e AED
 
 <div align="center">
    <img alt="logo trilha" src=".github/assets/trilha-rs.png" width="40%"/>
@@ -19,7 +19,7 @@
 
 ## Sumário
 
-- [Ignite Trilha Desenvovimento de IA - Introdução](#ignite-trilha-desenvovimento-de-ia---introdução)
+- [Formação Desenvovimento de IA - Introdução, Estatística e AED](#formação-desenvovimento-de-ia---introdução-estatística-e-aed)
   - [Sumário](#sumário)
   - [Sobre o Projeto](#sobre-o-projeto)
     - [Módulo 1: Introdução](#módulo-1-introdução)

@@ -6,7 +6,7 @@
 
 - [Módulo 1 - Introdução a Inteligência Artificial](#módulo-1---introdução-a-inteligência-artificial)
   - [Sumário](#sumário)
-  - [Objetívo do módulo](#objetívo-do-módulo)
+  - [Objetivo do módulo](#objetivo-do-módulo)
   - [Conteúdo](#conteúdo)
     - [O que é Inteligência Artificial?](#o-que-é-inteligência-artificial)
       - [Visão Formal](#visão-formal)
@@ -29,7 +29,7 @@
       - [Aprendizado Por Reforço](#aprendizado-por-reforço)
       - [Segurança Sibernética](#segurança-sibernética)
 
-## Objetívo do módulo
+## Objetivo do módulo
 
 Expolorar os conceitos e fundamentos da inteligência artificial, como o objetivo de definir melhor quais caminhos podemos seguir para este tipo de aplicação, que problemas a IA resolve e posicioná-la em termos de passado, presente e futuro.
 
@@ -513,6 +513,6 @@ A aplicação da Inteligência Artificial (IA) em Segurança Cibernética tem se
 
 A aplicação da IA em Segurança Cibernética é crucial para enfrentar ameaças cada vez mais sofisticadas e em constante evolução. A IA pode analisar grandes volumes de dados em tempo real, identificar anomalias e responder a ameaças com velocidade e precisão, fortalecendo a postura de segurança das organizações e protegendo ativos valiosos contra ataques cibernéticos. À medida que a cibersegurança continua a ser uma prioridade crítica para empresas e governos, a IA desempenha um papel fundamental na defesa contra ameaças digitais.
 
-> [retornar](#módulo-1---introdução-a-inteligencia-artificial) para o topo da página.
+> [retornar](#módulo-1---introdução-a-inteligência-artificial) para o topo da página.
 >
 > [voltar](../../README.md) para página anterior.

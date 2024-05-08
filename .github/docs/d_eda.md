@@ -9,6 +9,7 @@
 
 - [Módulo 4 - Análise Exploratória de Dados com Pandas](#módulo-4---análise-exploratória-de-dados-com-pandas)
   - [Sumário](#sumário)
+  - [Objetivos do Módulo](#objetivos-do-módulo)
   - [Conceitos](#conceitos)
     - [O que é a Biblioteca Pandas?](#o-que-é-a-biblioteca-pandas)
     - [Qual o objetivo do EAD - Exploratory Data Analysis?](#qual-o-objetivo-do-ead---exploratory-data-analysis)
@@ -29,6 +30,13 @@
       - [O que é Método Z-score?](#o-que-é-método-z-score)
     - [Automatizando EDA](#automatizando-eda)
       - [Consulta ChatGPT 3.5](#consulta-chatgpt-35-1)
+
+## Objetivos do Módulo
+
+- Aprender sobre a Biblioteca Pandas e como ela nos ajuda a abrir e manipular conjuntos de dados. 
+- Entender como transformar os dados no formato necessário para nossas análises e como unificar conjuntos de dados para facilitar o trabalho com eles. 
+- Explorar análises univariadas e bivariadas, além de lidar com valores ausentes e outliers. 
+- Elaborar relatório com o [`sweetviz`](https://pypi.org/project/sweetviz/), uma ferramenta para automatizar a EDA. 
 
 ## Conceitos
 
