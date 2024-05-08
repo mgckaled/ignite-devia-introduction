@@ -3,7 +3,7 @@
 
 # Módulo 4 - Análise Exploratória de Dados com Pandas
 
-> [voltar](./notes.md) para página anterior.
+> [voltar](../../README.md) para página anterior.
 
 ## Sumário
 
@@ -18,6 +18,8 @@
       - [Tipos de Análises](#tipos-de-análises)
       - [Comunicação dos Resultados](#comunicação-dos-resultados)
       - [Lidando com valores ausentes e *outliers*](#lidando-com-valores-ausentes-e-outliers)
+        - [Valores Ausentes](#valores-ausentes)
+        - [*Outliers*](#outliers)
       - [Tipo de dados ausentes](#tipo-de-dados-ausentes)
       - [Formulando Hipóteses](#formulando-hipóteses)
     - [Análise Bivariada](#análise-bivariada)
@@ -32,13 +34,11 @@
 
 ### O que é a Biblioteca Pandas?
 
-O Pandas é uma módulo de Python amplamente usada para análise de dados. Sua principal vantagem é usa capacidade de manipular, limpar e analisar dados de forma eficiente. Ele fornece estruturas de dados flexíveis, como *Series* e *DataFrames*, que permitem organizar dados em tabelas, realizar operações complexas, como filtros e agregações, e facilitar a visualização dos resultados. O Pandas também é compatível com várias fontes de dados, como arquivo `CSV`, aquivos de Excel e banco de dados, tornando-os essencial para cientistas de dados e analistas que desejam explorar e extrair *insights* de dados de maneira eficaz e intuitiva.
+O Pandas é uma módulo de Python amplamente usada para análise de dados. Sua principal vantagem é usa capacidade de manipular, limpar e analisar dados de forma eficiente. Ele fornece estruturas de dados flexíveis, como *Series* e *DataFrames*, que permitem organizar dados em tabelas, realizar operações complexas, como filtros e agregações, e facilitar a visualização dos resultados. O Pandas também é compatível com várias fontes de dados, como arquivo `.csv`, aquivos de Excel e banco de dados, tornando-os essencial para cientistas de dados e analistas que desejam explorar e extrair *insights* de dados de maneira eficaz e intuitiva.
 
 **Conceito ChatGPT-3.5**:
 
 A biblioteca Pandas é uma biblioteca de código aberto amplamente usada na linguagem de programação Python para manipulação e análise de dados. Ela fornece estruturas de dados e funções que tornam mais fácil a tarefa de trabalhar com dados tabulares, como planilhas ou tabelas de bancos de dados. Pandas é uma escolha popular para cientistas de dados, analistas de dados e desenvolvedores devido à sua eficiência e facilidade de uso.
-
-> [voltar](#sumário) para o topo da página.
 
 ### Qual o objetivo do EAD - Exploratory Data Analysis?
 
@@ -50,23 +50,23 @@ A Exploratory Data Analysis (Análise Exploratória de Dados, em português), ge
 
 Aqui estão alguns dos principais objetivos do EDA:
 
-1. Resumir dados: EDA ajuda a resumir os principais aspectos dos dados, como médias, medianas, desvios padrão e quartis. Isso fornece uma visão geral das características centrais dos dados.
+1. **Resumir dados:** EDA ajuda a resumir os principais aspectos dos dados, como médias, medianas, desvios padrão e quartis. Isso fornece uma visão geral das características centrais dos dados.
 
-2. Identificar padrões e tendências: EDA ajuda a identificar padrões, tendências e relações entre variáveis nos dados. Isso pode incluir a identificação de correlações, sazonalidades ou mudanças ao longo do tempo.
+2. **Identificar padrões e tendências:** EDA ajuda a identificar padrões, tendências e relações entre variáveis nos dados. Isso pode incluir a identificação de correlações, sazonalidades ou mudanças ao longo do tempo.
 
-3. Detectar anomalias: EDA ajuda a identificar valores atípicos ou anomalias nos dados, que podem ser erros de entrada ou informações importantes para investigar mais a fundo.
+3. **Detectar anomalias:** EDA ajuda a identificar valores atípicos ou anomalias nos dados, que podem ser erros de entrada ou informações importantes para investigar mais a fundo.
 
-4. Explorar distribuições: EDA permite visualizar as distribuições de variáveis, como histogramas, gráficos de densidade e gráficos de caixa, para entender melhor a forma como os dados estão distribuídos.
+4. **Explorar distribuições:** EDA permite visualizar as distribuições de variáveis, como histogramas, gráficos de densidade e gráficos de caixa, para entender melhor a forma como os dados estão distribuídos.
 
-5. Selecionar variáveis relevantes: Ao examinar as relações entre variáveis, o EDA pode ajudar na seleção de variáveis importantes para análises subsequentes, como modelagem estatística ou aprendizado de máquina.
+5. **Selecionar variáveis relevantes:** Ao examinar as relações entre variáveis, o EDA pode ajudar na seleção de variáveis importantes para análises subsequentes, como modelagem estatística ou aprendizado de máquina.
 
-6. Gerar hipóteses: A análise exploratória muitas vezes gera hipóteses que podem ser testadas posteriormente com métodos estatísticos mais rigorosos.
+6. **Gerar hipóteses:** A análise exploratória muitas vezes gera hipóteses que podem ser testadas posteriormente com métodos estatísticos mais rigorosos.
 
-7. Comunicar resultados: Visualizações e resumos gerados durante a EDA são frequentemente usados para comunicar resultados a partes interessadas e colegas.
+7. **Comunicar resultados:** Visualizações e resumos gerados durante a EDA são frequentemente usados para comunicar resultados a partes interessadas e colegas.
 
-Em resumo, a Exploratory Data Analysis é uma etapa crucial no processo de análise de dados, pois ajuda a compreender melhor os dados, identificar padrões e anomalias, e guiar análises estatísticas subsequentes. Ela permite que os analistas de dados obtenham uma visão mais profunda dos dados antes de realizar análises mais avançadas e tomar decisões informadas com base nas informações obtidas.
+Em resumo, a *Exploratory Data Analysis* (EDA) é uma etapa crucial no processo de análise de dados, pois ajuda a compreender melhor os dados, identificar padrões e anomalias, e guiar análises estatísticas subsequentes. Ela permite que os analistas de dados obtenham uma visão mais profunda dos dados antes de realizar análises mais avançadas e tomar decisões informadas com base nas informações obtidas.
 
-> [voltar](#sumário) para o topo da página
+> [retornar](#módulo-4---análise-exploratória-de-dados-com-pandas) para o topo da página
 
 ### Análise Exploratória de Dados
 
@@ -168,7 +168,7 @@ A comunicação de resultados desempenha um papel fundamental no contexto da An�
 
 4. **Identificação de Próximos Passos:** A EDA muitas vezes leva a novas perguntas e áreas de investigação. A comunicação dos resultados ajuda a identificar essas áreas e orienta os próximos passos na análise de dados.
 
-Aqui estão algumas práticas recomendadas para a comunicação de resultados dentro do contexto de EDA:
+Práticas recomendadas para a comunicação de resultados dentro do contexto de EDA:
 
 1. **Relatórios Claros e Concisos:** Crie relatórios ou documentos que destaquem os principais resultados da EDA de maneira clara e concisa. Use gráficos, tabelas e visualizações para ilustrar os pontos-chave.
 
@@ -190,7 +190,7 @@ Em resumo, a comunicação de resultados desempenha um papel crucial na Análise
 
 Lidar com valores ausentes e outliers é uma parte crítica do processo de preparação de dados em análise de dados. Ambos podem afetar negativamente a qualidade das análises e modelos, por isso é importante tratá-los adequadamente. Aqui estão algumas estratégias comuns para lidar com valores ausentes e outliers:
 
-**Valores Ausentes:**
+##### Valores Ausentes
 
 1. **Identificação:** Primeiro, identifique os valores ausentes em seu conjunto de dados usando métodos como a contagem de valores nulos em cada variável.
 
@@ -202,7 +202,7 @@ Lidar com valores ausentes e outliers é uma parte crítica do processo de prepa
 
 5. **Considerações Contextuais:** Lembre-se de que a imputação deve ser realizada com cuidado, levando em consideração o contexto dos dados. Imputar valores ausentes de forma inadequada pode distorcer a distribuição dos dados e afetar negativamente as análises.
 
-**Outliers:**
+##### *Outliers*
 
 1. **Identificação:** Identifique os outliers usando técnicas estatísticas, como o uso de gráficos de caixa (box plots), diagramas de dispersão (scatter plots) ou métodos estatísticos, como o Z-score ou o IQR (Intervalo Interquartil).
 
@@ -250,23 +250,23 @@ Além disso, é importante documentar o padrão de tipos de dados ausentes e qua
 
 Na análise exploratória de dados com o Pandas, a formulação de hipóteses é um passo crucial para direcionar sua investigação e testar suposições sobre os dados. Aqui está um resumo do processo:
 
-- Entenda o contexto: Comece por compreender o contexto do seu conjunto de dados e os objetivos da análise. Isso ajudará a identificar as questões a serem exploradas.
+- **Entenda o contexto**: Comece por compreender o contexto do seu conjunto de dados e os objetivos da análise. Isso ajudará a identificar as questões a serem exploradas.
 
-- Explore os dados: Use o Pandas para carregar seus dados e realizar uma análise inicial. Isso envolve a identificação de estatísticas descritivas, como média, mediana, desvio padrão, e a criação de gráficos para visualizar os dados.
+- **Explore os dados**: Use o Pandas para carregar seus dados e realizar uma análise inicial. Isso envolve a identificação de estatísticas descritivas, como média, mediana, desvio padrão, e a criação de gráficos para visualizar os dados.
 
-- Gere hipóteses: Com base na compreensão inicial dos dados, formule hipóteses sobre relações, tendências ou padrões que você suspeita existir no conjunto de dados. Por exemplo, "A idade dos clientes está relacionada ao valor médio das compras?".
+- **Gere hipóteses**: Com base na compreensão inicial dos dados, formule hipóteses sobre relações, tendências ou padrões que você suspeita existir no conjunto de dados. Por exemplo, "A idade dos clientes está relacionada ao valor médio das compras?".
 
-- Escolha métodos estatísticos: Selecionar métodos estatísticos apropriados para testar suas hipóteses. O Pandas oferece funções para calcular estatísticas, como correlações, t-testes, ANOVA, e muito mais.
+- **Escolha métodos estatísticos**: Selecionar métodos estatísticos apropriados para testar suas hipóteses. O Pandas oferece funções para calcular estatísticas, como correlações, t-testes, ANOVA, e muito mais.
 
-- Teste as hipóteses: Aplique os testes estatísticos aos dados para avaliar se as hipóteses são suportadas ou refutadas. Os resultados dos testes ajudarão a tomar decisões informadas.
+- **Teste as hipóteses**: Aplique os testes estatísticos aos dados para avaliar se as hipóteses são suportadas ou refutadas. Os resultados dos testes ajudarão a tomar decisões informadas.
 
-- Interprete os resultados: Analise os resultados dos testes estatísticos e interprete o que eles significam em relação às hipóteses formuladas. Isso pode levar a novas questões ou direcionar sua análise de maneira diferente.
+- **Interprete os resultados**: Analise os resultados dos testes estatísticos e interprete o que eles significam em relação às hipóteses formuladas. Isso pode levar a novas questões ou direcionar sua análise de maneira diferente.
 
-- Comunique as descobertas: Finalmente, comunique suas descobertas de forma clara e objetiva, destacando as hipóteses confirmadas ou refutadas, e suas implicações no contexto do problema ou questão original.
+- **Comunique as descobertas**: Finalmente, comunique suas descobertas de forma clara e objetiva, destacando as hipóteses confirmadas ou refutadas, e suas implicações no contexto do problema ou questão original.
 
 Lembrando que a análise exploratória de dados é um processo iterativo, e as hipóteses podem ser ajustadas à medida que você obtém mais informações e insights do conjunto de dados.
 
-> [voltar](#sumário) para o topo da página
+> [retornar](#módulo-4---análise-exploratória-de-dados-com-pandas) para o topo da página
 
 ### Análise Bivariada
 
@@ -288,7 +288,7 @@ A análise bivariada envolve a análise de duas variáveis em conjunto para iden
 
 A análise bivariada é uma etapa fundamental na AED, pois ajuda a identificar relações preliminares entre variáveis e a gerar insights que podem orientar análises mais avançadas. Ela é frequentemente usada como ponto de partida antes de realizar análises multivariadas, onde várias variáveis são consideradas simultaneamente.
 
-> [voltar](#sumário) para o topo da página
+> [retornar](#módulo-4---análise-exploratória-de-dados-com-pandas) para o topo da página
 
 ### Lidando com *Outliers*
 
@@ -299,32 +299,32 @@ Por exemplo, imagine que você tenha um conjunto de dados que registra a altura 
 *Outliers* podem aparacer por diversos fatores, como erros de medição, dados incompletos ou eventos aleatórios. Como eles podem afetar os resultados de uma análise de dados, logo é importante indentíficá-los e tratá-los através de métodos específicos, como os listados na ilustração abaixo:
 
 <div>
-   <img src="../assets/images/m4_01.png" width="70%"/>
+   <img src="../assets/images/m4_01.png" width="80%"/>
 </div>
 
 #### Consulta ChatGPT 3.5
 
 Lidar com outliers em uma análise exploratória de dados é uma etapa importante, pois esses valores atípicos podem distorcer as análises estatísticas e prejudicar a interpretação dos dados. Aqui estão algumas abordagens comuns para lidar com outliers:
 
-1. Identificação de outliers:
+1. **Identificação de outliers:**
    - Utilize gráficos de dispersão, histogramas, box plots e estatísticas descritivas para identificar os outliers em seus dados.
    - Considere as características do problema e do domínio para determinar se um valor é realmente um outlier ou se tem significado estatístico.
 
-2. Tratamento de outliers:
+2. **Tratamento de outliers:**
    - Remoção: Uma opção é remover os outliers do conjunto de dados. No entanto, isso deve ser feito com cuidado, pois a exclusão de dados pode resultar na perda de informações valiosas.
    - Transformação: Você pode aplicar transformações matemáticas aos dados, como a transformação logarítmica, para reduzir a influência dos outliers.
    - Substituição: Em vez de remover outliers, você pode substituí-los por valores mais típicos, como a mediana ou a média truncada (média calculada após a remoção de outliers).
    - Segmentação: Em alguns casos, pode ser útil segmentar os dados em grupos distintos, tratando os outliers de forma diferente em cada grupo.
 
-3. Análise sensível a outliers:
+3. **Análise sensível a outliers:**
    - Use métodos de estatística robusta que são menos sensíveis a outliers, como a mediana em vez da média.
    - Utilize testes de hipóteses robustos que não são influenciados por valores extremos.
 
-4. Visualização:
+4. **Visualização:**
    - Ao criar visualizações, como gráficos de dispersão, marque os outliers para que eles possam ser identificados facilmente.
    - Considere a criação de gráficos separados para destacar os outliers, se necessário.
 
-5. Avaliação do impacto:
+5. **Avaliação do impacto:**
    - Analise como a presença ou remoção de outliers afeta suas conclusões e decisões. É importante documentar todas as etapas de tratamento de outliers e justificar suas escolhas.
 
 Lembre-se de que o tratamento de outliers deve ser feito com cautela, dependendo do contexto do problema e das características dos dados. Em alguns casos, os outliers podem conter informações valiosas ou ser de interesse para a análise. Portanto, é importante entender o impacto das decisões sobre outliers em relação aos objetivos da análise de dados.
@@ -415,7 +415,7 @@ Os Z-scores são frequentemente usados para identificar valores atípicos (outli
 
 Agora, o DataFrame terá uma coluna 'Z-Score' contendo os valores do Z-score para cada valor na coluna 'Valor'. Você pode usar essa informação para identificar valores atípicos, se necessário. Certifique-se de que a coluna 'Valor' contenha os dados aos quais você deseja aplicar o Z-score.
 
-> [voltar](#sumário) para o topo da página
+> [retornar](#módulo-4---análise-exploratória-de-dados-com-pandas) para o topo da página
 
 ### Automatizando EDA
 
@@ -429,46 +429,45 @@ A Automatização da análise exploratória de dados (EDA) oferece uma série de
 
 A automação da Análise Exploratória de Dados (EDA) envolve o uso de ferramentas e scripts para realizar tarefas repetitivas de exploração de dados de forma mais eficiente. Aqui estão algumas etapas para automatizar um EDA:
 
-1. Coleta de Dados:
+1. **Coleta de Dados:**
    - Configure um pipeline de coleta de dados que busca automaticamente os dados de suas fontes, como bancos de dados, APIs, arquivos CSV, etc.
    - Agende tarefas para atualizar os dados regularmente, se necessário.
 
-2. Pré-processamento de Dados:
+2. **Pré-processamento de Dados:**
    - Automatize a limpeza de dados, incluindo preenchimento de valores ausentes, tratamento de outliers e transformações de dados.
    - Use scripts ou ferramentas para padronizar a formatação dos dados.
 
-3. Visualizações Automatizadas:
+3. **Visualizações Automatizadas:**
    - Crie scripts que gerem visualizações de dados, como gráficos de dispersão, histogramas, box plots e outros gráficos relevantes.
    - Utilize bibliotecas de visualização de dados, como Matplotlib, Seaborn ou Plotly em Python, para criar visualizações de forma programática.
 
-4. Análise Estatística:
+4. **Análise Estatística:**
    - Desenvolva scripts para calcular estatísticas descritivas, como média, mediana, desvio padrão, correlações, etc.
    - Automatize a identificação de tendências e padrões nos dados, como sazonalidades ou anomalias.
 
-5. Análise de Texto:
+5. **Análise de Texto:**
    - Se os seus dados incluem texto, utilize processamento de linguagem natural (NLP) para automatizar a análise de texto, como extração de palavras-chave, análise de sentimentos e classificação de documentos.
 
-6. Relatórios Automatizados:
+6. **Relatórios Automatizados:**
    - Crie scripts para gerar relatórios automaticamente, incluindo resultados de análise, visualizações e insights.
    - Use ferramentas como Jupyter Notebooks, RMarkdown, ou bibliotecas de geração de relatórios em HTML ou PDF.
 
-7. Integração com Dashboards:
+7. **Integração com Dashboards:**
    - Integre os resultados da automação de EDA em dashboards interativos usando ferramentas como Tableau, Power BI, ou bibliotecas como Dash (para Python).
    - Isso permite que os usuários explorem os dados de forma interativa.
 
-8. Monitoramento e Atualização:
+8. **Monitoramento e Atualização:**
    - Estabeleça um sistema de monitoramento que verifica a qualidade dos dados, a precisão das análises e a integridade dos resultados automaticamente.
    - Automatize a atualização do EDA sempre que novos dados estejam disponíveis.
 
-9. Versionamento:
+9. **Versionamento:**
    - Utilize sistemas de controle de versão, como Git, para rastrear as mudanças nos scripts e nos resultados da análise.
 
-10. Documentação:
-
-- Documente seus scripts, fluxos de trabalho e resultados para que outros membros da equipe possam entender e utilizar a automação do EDA.
+10. **Documentação:**
+   - Documente seus scripts, fluxos de trabalho e resultados para que outros membros da equipe possam entender e utilizar a automação do EDA.
 
 Lembre-se de que a automação do EDA não é uma solução única para todos os casos. A complexidade e os requisitos específicos variam de projeto para projeto. Portanto, adapte a automação às necessidades do seu projeto e esteja preparado para ajustá-la à medida que os requisitos mudam.
 
-> [voltar](#sumário) para o topo da página
+> [retornar](#módulo-4---análise-exploratória-de-dados-com-pandas) para o topo da página
 >
-> [voltar](./notes.md) para página anterior.
+> [voltar](../../README.md) para página anterior.

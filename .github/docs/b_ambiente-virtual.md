@@ -1,6 +1,6 @@
 # Módulo 2 - Ambiente Virtual de Desenvolvimento
 
-> [voltar](./notes.md) para página anterior.
+> [voltar](../../README.md) para página anterior.
 
 ## Sumário
 
@@ -9,15 +9,21 @@
   - [Objetivo do módulo](#objetivo-do-módulo)
   - [Conteúdo](#conteúdo)
     - [O que é Ambiente Virtual de desenvolvimento?](#o-que-é-ambiente-virtual-de-desenvolvimento)
-    - [Quais são os principais gerenciadores de versão Python?](#quais-são-os-principais-gerenciadores-de-versão-python)
+    - [Quais são os principais gerenciadores de versão em Python?](#quais-são-os-principais-gerenciadores-de-versão-em-python)
     - [O que é e qual é o objetivo dos Gerenciadores de Ambientes Virtuais?](#o-que-é-e-qual-é-o-objetivo-dos-gerenciadores-de-ambientes-virtuais)
     - [Gerenciadores de Ambiente Virtual minimalistas](#gerenciadores-de-ambiente-virtual-minimalistas)
       - [`Pyenv`](#pyenv)
+        - [Instalação](#instalação)
+        - [Uso Básico](#uso-básico)
+        - [Vantagens](#vantagens)
       - [`Pipenv`](#pipenv)
+        - [Instalação](#instalação-1)
+        - [Uso Básico](#uso-básico-1)
+        - [Vantagens](#vantagens-1)
 
 ## Objetivo do módulo
 
-Preparar adequadamente o ambiente de desenvolvimento para as tarefas práticas do módulo.
+Preparar adequadamente o ambiente de desenvolvimento para as tarefas práticas dos módulos posteriores.
 
 ## Conteúdo
 
@@ -25,7 +31,7 @@ Preparar adequadamente o ambiente de desenvolvimento para as tarefas práticas d
 
 Um Ambiente Virtual de Desenvolvimento em Python é um espaço isolado que permite criar um ambiente independente com suas próprias configurações e dependências Python para um projeto específico. Isso ajuda a evitar conflitos entre bibliotecas e permite que os desenvolvedores gerenciem diferentes conjuntos de bibliotecas e versões para diferentes projetos Python em uma única máquina.
 
-### Quais são os principais gerenciadores de versão Python?
+### Quais são os principais gerenciadores de versão em Python?
 
 Os principais gerenciadores de versão Python são:
 
@@ -47,7 +53,7 @@ Os principais gerenciadores de versão Python são:
 
 A escolha do gerenciador de versão Python depende das necessidades e preferências do desenvolvedor, bem como das exigências do projeto. Cada um desses gerenciadores oferece recursos específicos e aborda diferentes aspectos do desenvolvimento e do gerenciamento de pacotes Python.
 
-> [voltar](#sumário) para o topo da página.
+> [retornar](#módulo-2---ambiente-virtual-de-desenvolvimento) para o topo da página.
 
 ### O que é e qual é o objetivo dos Gerenciadores de Ambientes Virtuais?
 
@@ -70,7 +76,7 @@ Os Gerenciadores de Ambientes Virtuais são ferramentas que permitem criar e ger
 
 Em resumo, os gerenciadores de ambientes virtuais são ferramentas essenciais para o desenvolvimento Python, pois ajudam a criar ambientes de desenvolvimento isolados, controlar dependências e garantir a consistência e a portabilidade de projetos. Eles desempenham um papel fundamental na organização e na simplificação do gerenciamento de projetos de software.
 
-> [voltar](#sumário) para o topo da página.
+> [retornar](#módulo-2---ambiente-virtual-de-desenvolvimento) para o topo da página.
 
 ### Gerenciadores de Ambiente Virtual minimalistas
 
@@ -78,13 +84,13 @@ Em resumo, os gerenciadores de ambientes virtuais são ferramentas essenciais pa
 
 O `pyenv` é uma ferramenta que permite gerenciar múltiplas instalações do interpretador Python em uma única máquina. Ela oferece flexibilidade para alternar entre diferentes versões do Python e é útil quando você precisa trabalhar com projetos que requerem versões específicas do Python. Abaixo, vou fornecer explicações detalhadas sobre o `pyenv`:
 
-**Instalação do Pyenv:**
+##### Instalação
 
 Para começar a usar o `pyenv`, você precisa instalá-lo em seu sistema. O processo de instalação pode variar dependendo do seu sistema operacional. Geralmente, você pode instalar o `pyenv` seguindo as instruções no GitHub do projeto (<https://github.com/pyenv/pyenv>).
 
-**Uso Básico do Pyenv:**
+##### Uso Básico
 
-Aqui estão alguns comandos e conceitos importantes relacionados ao `pyenv`:
+Comandos e conceitos importantes relacionados ao `pyenv`:
 
 1. **Listar Versões Disponíveis:**
    - Você pode listar todas as versões do Python disponíveis para instalação usando o comando:
@@ -134,7 +140,7 @@ Aqui estão alguns comandos e conceitos importantes relacionados ao `pyenv`:
 6. **Alternar Entre Versões:**
    - Você pode alternar entre diferentes versões do Python usando o comando `pyenv global`, `pyenv local` ou mesmo definindo a variável de ambiente `PYENV_VERSION`.
 
-**Vantagens do Pyenv:**
+##### Vantagens
 
 - **Flexibilidade**: O `pyenv` permite que você trabalhe com várias versões do Python no mesmo sistema, tornando-o flexível para lidar com projetos que têm diferentes requisitos de versão.
 
@@ -150,9 +156,9 @@ Em resumo, o `pyenv` é uma ferramenta valiosa para gerenciar versões do Python
 
 #### `Pipenv`
 
-O `pipenv` é uma ferramenta de gerenciamento de pacotes e ambientes virtuais Python que visa simplificar o processo de desenvolvimento, gerenciando dependências e ambientes virtuais. Ele combina as funcionalidades do `pip` (gerenciador de pacotes) e do `virtualenv` (gerenciador de ambientes virtuais) em uma única ferramenta. Abaixo, vou fornecer explicações detalhadas sobre o `pipenv`:
+O `pipenv` é uma ferramenta de gerenciamento de pacotes e ambientes virtuais Python que visa simplificar o processo de desenvolvimento, gerenciando dependências e ambientes virtuais. Ele combina as funcionalidades do `pip` (gerenciador de pacotes) e do `virtualenv` (gerenciador de ambientes virtuais) em uma única ferramenta.
 
-**Instalação do Pipenv:**
+##### Instalação
 
 Para começar a usar o `pipenv`, você precisa instalá-lo em seu sistema. Você pode fazê-lo usando o `pip`, o gerenciador de pacotes Python padrão:
 
@@ -160,9 +166,9 @@ Para começar a usar o `pipenv`, você precisa instalá-lo em seu sistema. Você
 pip install pipenv
 ```
 
-**Uso Básico do Pipenv:**
+##### Uso Básico
 
-Aqui estão os conceitos e comandos importantes relacionados ao `pipenv`:
+Conceitos e comandos importantes relacionados ao `pipenv`:
 
 1. **Criar um Novo Ambiente Virtual e Inicializar um Projeto:**
    - Para criar um novo ambiente virtual e iniciar um projeto Python em um diretório específico, você pode usar:
@@ -219,7 +225,7 @@ Aqui estão os conceitos e comandos importantes relacionados ao `pipenv`:
      pipenv lock
      ```
 
-**Vantagens do Pipenv:**
+##### Vantagens
 
 - **Integração de Gerenciamento de Pacotes e Ambientes Virtuais**: O `pipenv` combina o gerenciamento de pacotes (`pip`) e a criação de ambientes virtuais (`virtualenv`) em uma única ferramenta, simplificando o fluxo de trabalho de desenvolvimento.
 
@@ -235,6 +241,6 @@ Aqui estão os conceitos e comandos importantes relacionados ao `pipenv`:
 
 Em resumo, o `pipenv` é uma ferramenta conveniente e poderosa para gerenciamento de pacotes e ambientes virtuais em projetos Python. Ele oferece uma solução completa para criar ambientes de desenvolvimento isolados e gerenciar dependências, tornando o desenvolvimento Python mais organizado e eficiente.
 
-> [voltar](#sumário) para o topo da página.
+> [retornar](#módulo-2---ambiente-virtual-de-desenvolvimento) para o topo da página.
 >
-> [voltar](./notes.md) para página anterior.
+> [voltar](../../README.md) para página anterior.

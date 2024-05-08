@@ -6,6 +6,8 @@
    <img alt="logo trilha" src=".github/assets/trilha-rs.png" width="40%"/>
 </div>
 
+<br>
+
 <div align="center">
    <a href="https://github.com/mgckaled">
       <img alt="Made by mgckaled" src="https://img.shields.io/badge/made%20by-mgckaled-darkblue">
@@ -33,33 +35,37 @@
 
 ## Sobre o Projeto
 
-Repositório que reuni os quatro primeiros módulos da trilha Desenvolvimento IA 2023, desenvolvido pela Rocketseat Education.
+Repositório que reuni os quatro primeiros módulos da formação Desenvolvimento IA 2023-2024, desenvolvido pela Rocketseat Education.
 
 ### Módulo 1: Introdução
 
 Neste módulo de introdução à inteligência artificial, exploraremos conceitos e fundamentos da área, abordando seu potencial na resolução de problemas complexos. Também traçaremos uma linha do tempo desde suas origens históricas até o presente emocionante e o futuro promissor da IA, revelando seu impacto no mundo. Prepare-se para uma imersão profunda no universo da IA e sua influência na sociedade.
 
+> Acesso ao [conteúdo das aulas](.github/docs/a_introducao.md) 
+
 ### Módulo 2: Ambiente de Desenvolvimento
 
-Neste módulo de configuração para a Trilha de IA, focaremos em prepará-lo eficazmente para as tarefas práticas. Isso envolve entender ambientes virtuais, gerenciar versões do Python e configurar o Visual Studio Code. Exploraremos otimizações para interagir com Python na IA, maximizando sua experiência de aprendizado. Prepare-se para configurar seu ambiente de desenvolvimento de forma sólida, crucial para o sucesso na trilha de estudo.
+Neste módulo de configuração para a formação de Desenvolvimento IA, focaremos em prepará-lo eficazmente para as tarefas práticas. Isso envolve entender ambientes virtuais, gerenciar versões do Python e configurar o Visual Studio Code. Exploraremos otimizações para interagir com Python na IA, maximizando sua experiência de aprendizado. Prepare-se para configurar seu ambiente de desenvolvimento de forma sólida, crucial para o sucesso na trilha de estudo.
+
+> Acesso ao [conteúdo das aulas](.github/docs/b_ambiente-virtual.md)
 
 ### Módulo 3: Estatística para Devs
 
-Neste módulo de Estatística Descritiva para Devs, focaremos na construção de uma base sólida em conceitos-chave. Isso é essencial para analisar dados, explorar informações iniciais para insights valiosos e identificar padrões nos conjuntos de dados. Esses conhecimentos impactarão a escolha de modelos de machine learning, ajuste de parâmetros e avaliação de desempenho. Prepare-se para adquirir as habilidades essenciais para aplicar estatística descritiva com confiança em sua carreira na IA.
+Neste módulo de Estatística Descritiva e Qualitativa para Devs, focaremos na construção de uma base sólida em conceitos-chave. Isso é essencial para analisar dados, explorar informações iniciais para insights valiosos e identificar padrões nos conjuntos de dados. Esses conhecimentos impactarão a escolha de modelos de machine learning, ajuste de parâmetros e avaliação de desempenho. Prepare-se para adquirir as habilidades essenciais para aplicar estatística descritiva com confiança em sua carreira na IA.
+
+> Acesso ao [conteúdo das aulas](.github/docs/c_estatistica-devs.md)
 
 ### Módulo 4: Análise Exploratória de Dados com Pandas
 
 Neste módulo de análise exploratória de dados com pandas, vamos aprender a extrair insights dos dados que temos. O objetivo do EDA, ou Exploratory Data Analysis, é dar uma olhada nos dados antes de começar a fazer coisas mais complexas. Vamos abordar conceitos do EDA, a biblioteca Pandas, coleta e preparação de dados, lidar com dados ausentes, formulação de hipóteses, análise univariada e bivariada, lidar com outliers e automatizar parte do processo.
 
-> Acessar [**anotações de aulas**](/.github/docs/notes.md).
->
-> Quiz - [Questionário Avaliativo](/.github/docs/quizz.md)
+> Acesso ao [conteúdo das aulas](.github/docs/d_eda.md)
 
 ## Tecnologias
 
 ### Linguagem de Programação
 
-- [`python`](https://www.python.org/) (v3.11)
+- [`python`](https://www.python.org/) (v3.11.0)
 
 ### Gerenciadores de Ambiente Virtual
 
@@ -90,11 +96,22 @@ Neste módulo de análise exploratória de dados com pandas, vamos aprender a ex
     cd ignite-devia-introduction
     ```
 
-4. Instale as dependências e ative o ambiente virtual
+4. Ative o ambiente virtual pelo terminal
 
-    ```bash
-    pipenv install
+    ```shell
     pipenv shell
+    ```
+
+5. Instale as dependências. (Certifique-se de estar utilzando a versão exata do python - 3.11.0)
+
+    ```shell
+    pipenv install
+    ```
+
+    ou, como um recurso de degurança,  dependências exatas do `requirements.txt`:
+
+    ```shell
+    pipenv install -r requirements.txt
     ```
 
 ## Licença
@@ -104,5 +121,5 @@ Distribuído sob a licença *MIT*. Veja [LICENSE](LICENSE) para mais informaçõ
 ---
 
 <h5 align="center">
-  2023 - <a href="https://github.com/mgckaled/">Marcel Kaled</a>
+  2023-2024 - <a href="https://github.com/mgckaled/">Marcel Kaled</a>
 </h5>
