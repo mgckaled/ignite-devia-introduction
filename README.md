@@ -55,11 +55,15 @@ Neste módulo de Estatística Descritiva e Qualitativa para Devs, focaremos na c
 
 > Acesso ao [conteúdo das aulas](.github/docs/c_estatistica-devs.md)
 
+- [Desafio opicional](https://efficient-sloth-d85.notion.site/Desafio-Estat-stica-para-Devs-f1fd60193670432b9ea6bab3e40c345c): `notebooks/challenge_m3.ipynb`
+
 ### Módulo 4: Análise Exploratória de Dados com Pandas
 
 Neste módulo de análise exploratória de dados com pandas, vamos aprender a extrair insights dos dados que temos. O objetivo do EDA, ou Exploratory Data Analysis, é dar uma olhada nos dados antes de começar a fazer coisas mais complexas. Vamos abordar conceitos do EDA, a biblioteca Pandas, coleta e preparação de dados, lidar com dados ausentes, formulação de hipóteses, análise univariada e bivariada, lidar com outliers e automatizar parte do processo.
 
 > Acesso ao [conteúdo das aulas](.github/docs/d_eda.md)
+
+Ao final dos estudos, foi gerado um relatório automatizado na pasta `/reports`. 
 
 ## Tecnologias
 
