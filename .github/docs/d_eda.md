@@ -30,6 +30,7 @@
       - [O que é Método Z-score?](#o-que-é-método-z-score)
     - [Automatizando EDA](#automatizando-eda)
       - [Consulta ChatGPT 3.5](#consulta-chatgpt-35-1)
+  - [Questinário Avaliativo](#questinário-avaliativo)
 
 ## Objetivos do Módulo
 
@@ -475,6 +476,28 @@ A automação da Análise Exploratória de Dados (EDA) envolve o uso de ferramen
    - Documente seus scripts, fluxos de trabalho e resultados para que outros membros da equipe possam entender e utilizar a automação do EDA.
 
 Lembre-se de que a automação do EDA não é uma solução única para todos os casos. A complexidade e os requisitos específicos variam de projeto para projeto. Portanto, adapte a automação às necessidades do seu projeto e esteja preparado para ajustá-la à medida que os requisitos mudam.
+
+## Questinário Avaliativo
+
+1. *Qual das seguintes opções retorna o número de linhas e colunas de um DataFrame?* **Resposta:** `df.shape`
+
+2. *Como você pode selecionar todas as linhas de um DataFrame onde o valor na coluna 'A' é maior que 10?* **Resposta:** `df[df['A'] > 10]`
+
+3. *Qual das seguintes opções é usada para criar um gráfico de barras em um DataFrame pandas?* **Resposta:** `df.plot.bar()`
+
+4. *Qual método do pandas é usado para lidar com valores ausentes substituindo-os pela média da coluna?* **Resposta:** `df.fillna(df.mean())`
+
+5. *O que é uma matriz de correlação usada na Análise Exploratória de Dados?* **Resposta:** Uma tabela que mostra a correlação entre diferentes variáveis.
+
+6. *Qual função do pandas é usada para ler um arquivo CSV?* **Resposta:** `pandas.read_csv()`
+
+7. *Qual função do pandas é usada para obter estatísticas descritivas de um DataFrame?* **Resposta:** `df.describe()`
+
+8. *Qual dos seguintes não é uma técnica comum na Análise Exploratória de Dados?* **Resposta:** Reamostragem de dados.
+
+9. *Qual é o objetivo principal da Análise Exploratória de Dados?* **Resposta:** Resumir e visualizar os principais aspectos dos dados.
+
+10. *Qual é a vantagem de usar gráficos na Análise Exploratória de Dados?* **Resposta:** Facilitar a identificação de padrões e anomalias nos dados.
 
 > [retornar](#módulo-4---análise-exploratória-de-dados-com-pandas) para o topo da página
 >
