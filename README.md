@@ -53,17 +53,19 @@ Neste módulo de configuração para a formação de Desenvolvimento IA, focarem
 
 Neste módulo de Estatística Descritiva e Qualitativa para Devs, focaremos na construção de uma base sólida em conceitos-chave. Isso é essencial para analisar dados, explorar informações iniciais para insights valiosos e identificar padrões nos conjuntos de dados. Esses conhecimentos impactarão a escolha de modelos de machine learning, ajuste de parâmetros e avaliação de desempenho. Prepare-se para adquirir as habilidades essenciais para aplicar estatística descritiva com confiança em sua carreira na IA.
 
-> Acesso ao [conteúdo das aulas](.github/docs/c_estatistica-devs.md)
+> Acesso ao [conteúdo das aulas](.github/docs/c_estatistica-devs.md). Respostas do questionário avaliativo ao final do documento.
 
-- [Desafio opicional](https://efficient-sloth-d85.notion.site/Desafio-Estat-stica-para-Devs-f1fd60193670432b9ea6bab3e40c345c): `notebooks/challenge_m3.ipynb`
+- [Desafio opicional do módulo](https://efficient-sloth-d85.notion.site/Desafio-Estat-stica-para-Devs-f1fd60193670432b9ea6bab3e40c345c): `notebooks/challenge_m3.ipynb`
 
 ### Módulo 4: Análise Exploratória de Dados com Pandas
 
 Neste módulo de análise exploratória de dados com pandas, vamos aprender a extrair insights dos dados que temos. O objetivo do EDA, ou Exploratory Data Analysis, é dar uma olhada nos dados antes de começar a fazer coisas mais complexas. Vamos abordar conceitos do EDA, a biblioteca Pandas, coleta e preparação de dados, lidar com dados ausentes, formulação de hipóteses, análise univariada e bivariada, lidar com outliers e automatizar parte do processo.
 
-> Acesso ao [conteúdo das aulas](.github/docs/d_eda.md)
+> Acesso ao [conteúdo das aulas](.github/docs/d_eda.md). Respostas do questionário avaliativo ao final do documento.
 
 Ao final dos estudos, foi gerado um relatório automatizado na pasta `/reports`. 
+
+- [Desafio opicional do módulo](https://efficient-sloth-d85.notion.site/Desafio-EDA-c8c8b2faf153449193b4b9fb0895afa6): `notebooks/challenge_m4.ipynb`
 
 ## Tecnologias
 
@@ -112,7 +114,7 @@ Ao final dos estudos, foi gerado um relatório automatizado na pasta `/reports`.
     pipenv install
     ```
 
-    ou, como um recurso de degurança,  dependências exatas do `requirements.txt`:
+    ou, como um recurso de degurança, dependências exatas do `requirements.txt`:
 
     ```shell
     pipenv install -r requirements.txt
